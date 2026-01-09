@@ -22,6 +22,25 @@ Thumbs.db
 *.log
 *.tmp
 
-# Keep outputs folder structure but ignore specific run files if too large
-# Uncomment below if you want to ignore all outputs:
-# outputs/*.json
+# Debug and test scripts (keep only main script)
+check_*.py
+debug_*.py
+decode_*.py
+find_*.py
+search_*.py
+test_*.py
+verify_*.py
+fetch_dflow_events.py
+fetch_dflow_events_v*.py
+fetch_dflow_events_main.py
+fetch_dflow_events_final.py
+
+# Debug JSON outputs (keep only the outputs folder)
+dflow_events.json
+dflow_events_v*.json
+dflow_swap_events_v*.json
+raw_transactions.json
+transaction_debug.json
+specific_tx.json
+sample_transaction.json
+helius_enhanced_tx.json
