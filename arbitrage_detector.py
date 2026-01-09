@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-DFlow Arbitrage Detector
-Fetches swap events in real-time and identifies atomic arbitrage opportunities.
+Multi-Protocol Arbitrage Detector
+Fetches swap events in real-time from DFlow and Jupiter and identifies atomic arbitrage opportunities.
 
 An atomic arbitrage is a sequence of swaps within a single transaction where:
 - The final output token is the same as the initial input token
@@ -19,19 +19,33 @@ from typing import List, Dict, Any, Optional
 from datetime import datetime
 from collections import defaultdict
 
-# Configuration
-PROGRAM_ID = "DF1ow4tspfHX9JwWJsAb9epbkA8hmpSEAtxXy1V27QBH"
-HELIUS_API_KEY = "40cc947b-4381-47a9-b554-5b693c015ac6"
-HELIUS_RPC = f"https://mainnet.helius-rpc.com/?api-key={HELIUS_API_KEY}"
-HELIUS_BASE_URL = f"https://api.helius.xyz/v0"
+# Protocol Configurations
+PROTOCOLS = {
+    "dflow": {
+        "program_id": "DF1ow4tspfHX9JwWJsAb9epbkA8hmpSEAtxXy1V27QBH",
+        "api_key": "40cc947b-4381-47a9-b554-5b693c015ac6",
+        "discriminator": bytes([0xe4, 0x45, 0xa5, 0x2e, 0x51, 0xcb, 0x9a, 0x1d])
+    },
+    "jupiter": {
+        "program_id": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+        "api_key": "b84cd4c8-22cd-439b-a9d4-064dae398e5c",
+        "discriminator": bytes([0xe4, 0x45, 0xa5, 0x2e, 0x51, 0xcb, 0x9a, 0x1d])  # Using same discriminator
+    }
+}
 
-# SwapEvent discriminator
-SWAP_EVENT_DISCRIMINATOR = bytes([0xe4, 0x45, 0xa5, 0x2e, 0x51, 0xcb, 0x9a, 0x1d])
-
-# Tracking
-processed_signatures = set()
-all_swaps = []
-arbitrage_opportunities = []
+# Tracking per protocol
+protocol_data = {
+    "dflow": {
+        "processed_signatures": set(),
+        "all_swaps": [],
+        "arbitrage_opportunities": []
+    },
+    "jupiter": {
+        "processed_signatures": set(),
+        "all_swaps": [],
+        "arbitrage_opportunities": []
+    }
+}
 
 
 def decode_swap_event_from_data(data: bytes, start_offset: int = 0) -> Optional[Dict[str, Any]]:
@@ -69,7 +83,7 @@ def decode_swap_event_from_data(data: bytes, start_offset: int = 0) -> Optional[
         return None
 
 
-def extract_events_from_inner_instructions(tx_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+def extract_events_from_inner_instructions(tx_data: Dict[str, Any], discriminator: bytes) -> List[Dict[str, Any]]:
     """Extract SwapEvent data from inner instructions (Anchor Self CPI)."""
     events = []
     inner_instructions = tx_data.get("meta", {}).get("innerInstructions", [])
@@ -80,7 +94,7 @@ def extract_events_from_inner_instructions(tx_data: Dict[str, Any]) -> List[Dict
             if "data" in instruction:
                 try:
                     inst_data = base58.b58decode(instruction["data"])
-                    if len(inst_data) >= 128 and inst_data[:8] == SWAP_EVENT_DISCRIMINATOR:
+                    if len(inst_data) >= 128 and inst_data[:8] == discriminator:
                         decoded_event = decode_swap_event_from_data(inst_data, 0)
                         if decoded_event:
                             decoded_event["instruction_index"] = instruction_index
@@ -93,7 +107,7 @@ def extract_events_from_inner_instructions(tx_data: Dict[str, Any]) -> List[Dict
     return events
 
 
-def fetch_transaction_with_logs(signature: str) -> Optional[Dict[str, Any]]:
+def fetch_transaction_with_logs(signature: str, rpc_url: str) -> Optional[Dict[str, Any]]:
     """Fetch transaction details including logs."""
     payload = {
         "jsonrpc": "2.0",
@@ -110,18 +124,18 @@ def fetch_transaction_with_logs(signature: str) -> Optional[Dict[str, Any]]:
     }
 
     try:
-        response = requests.post(HELIUS_RPC, json=payload)
+        response = requests.post(rpc_url, json=payload)
         response.raise_for_status()
         return response.json().get("result")
     except Exception:
         return None
 
 
-def fetch_recent_transactions(limit: int = 100) -> List[Dict[str, Any]]:
+def fetch_recent_transactions(program_id: str, api_key: str, limit: int = 100) -> List[Dict[str, Any]]:
     """Fetch recent transactions using Helius Enhanced API."""
-    url = f"{HELIUS_BASE_URL}/addresses/{PROGRAM_ID}/transactions"
+    url = f"https://api.helius.xyz/v0/addresses/{program_id}/transactions"
     params = {
-        "api-key": HELIUS_API_KEY,
+        "api-key": api_key,
         "limit": limit
     }
 
@@ -203,33 +217,36 @@ def detect_arbitrage(swaps: List[Dict[str, Any]], tx_id: str, slot: int, timesta
     return None
 
 
-def process_transaction(tx: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+def process_transaction(tx: Dict[str, Any], protocol: str, config: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     """Process a single transaction and detect arbitrage."""
     signature = tx.get("signature", "")
 
+    data = protocol_data[protocol]
+
     # Skip if already processed
-    if signature in processed_signatures:
+    if signature in data["processed_signatures"]:
         return None
 
-    processed_signatures.add(signature)
+    data["processed_signatures"].add(signature)
 
     slot = tx.get("slot", 0)
     timestamp = tx.get("timestamp", 0)
 
     # Fetch full transaction with inner instructions
-    tx_with_logs = fetch_transaction_with_logs(signature)
+    rpc_url = f"https://mainnet.helius-rpc.com/?api-key={config['api_key']}"
+    tx_with_logs = fetch_transaction_with_logs(signature, rpc_url)
     if not tx_with_logs:
         return None
 
     # Extract swap events (ordered)
-    swaps = extract_events_from_inner_instructions(tx_with_logs)
+    swaps = extract_events_from_inner_instructions(tx_with_logs, config["discriminator"])
 
     if not swaps:
         return None
 
     # Store all swaps
     for swap in swaps:
-        all_swaps.append({
+        data["all_swaps"].append({
             "tx_id": signature,
             "block_slot": slot,
             "block_time": timestamp,
@@ -240,10 +257,10 @@ def process_transaction(tx: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     return detect_arbitrage(swaps, signature, slot, timestamp)
 
 
-def run_for_duration(duration_seconds: int = 60):
+def run_for_duration(duration_seconds: int = 180):
     """Run the arbitrage detector for a specified duration."""
-    print(f"Starting arbitrage detection for {duration_seconds} seconds...")
-    print(f"Program: {PROGRAM_ID}\n")
+    print(f"Starting multi-protocol arbitrage detection for {duration_seconds} seconds...")
+    print(f"Protocols: DFlow & Jupiter\n")
 
     start_time = time.time()
     iteration = 0
@@ -255,22 +272,26 @@ def run_for_duration(duration_seconds: int = 60):
 
         print(f"\n[Iteration {iteration}] Elapsed: {elapsed}s | Remaining: {remaining}s")
 
-        # Fetch recent transactions
-        transactions = fetch_recent_transactions(limit=50)
-        print(f"  Fetched {len(transactions)} transactions")
+        # Process both protocols
+        for protocol_name, config in PROTOCOLS.items():
+            # Fetch recent transactions
+            transactions = fetch_recent_transactions(config["program_id"], config["api_key"], limit=50)
+            print(f"  [{protocol_name.upper()}] Fetched {len(transactions)} transactions")
 
-        # Process each transaction
-        new_arbitrages = 0
-        for tx in transactions:
-            arbitrage = process_transaction(tx)
-            if arbitrage:
-                arbitrage_opportunities.append(arbitrage)
-                new_arbitrages += 1
+            data = protocol_data[protocol_name]
 
-        if new_arbitrages > 0:
-            print(f"  ✓ Found {new_arbitrages} new arbitrage(s)!")
+            # Process each transaction
+            new_arbitrages = 0
+            for tx in transactions:
+                arbitrage = process_transaction(tx, protocol_name, config)
+                if arbitrage:
+                    data["arbitrage_opportunities"].append(arbitrage)
+                    new_arbitrages += 1
 
-        print(f"  Total: {len(all_swaps)} swaps, {len(arbitrage_opportunities)} arbitrages")
+            if new_arbitrages > 0:
+                print(f"  [{protocol_name.upper()}] ✓ Found {new_arbitrages} new arbitrage(s)!")
+
+            print(f"  [{protocol_name.upper()}] Total: {len(data['all_swaps'])} swaps, {len(data['arbitrage_opportunities'])} arbitrages")
 
         # Wait before next iteration (avoid rate limits)
         if remaining > 0:
@@ -286,84 +307,103 @@ def print_summary():
     print(f"\n{'='*80}")
     print(f"SUMMARY")
     print(f"{'='*80}")
-    print(f"Total Swaps Collected: {len(all_swaps)}")
-    print(f"Total Arbitrage Opportunities: {len(arbitrage_opportunities)}")
-    print(f"Unique Transactions: {len(processed_signatures)}")
+
+    for protocol_name in PROTOCOLS.keys():
+        data = protocol_data[protocol_name]
+        print(f"\n[{protocol_name.upper()}]")
+        print(f"  Total Swaps Collected: {len(data['all_swaps'])}")
+        print(f"  Total Arbitrage Opportunities: {len(data['arbitrage_opportunities'])}")
+        print(f"  Unique Transactions: {len(data['processed_signatures'])}")
 
 
 def print_sample_swaps(limit: int = 10):
     """Print sample swap events."""
     print(f"\n{'='*80}")
-    print(f"SAMPLE SWAP EVENTS (First {limit})")
+    print(f"SAMPLE SWAP EVENTS (First {limit} per protocol)")
     print(f"{'='*80}")
 
-    for i, swap in enumerate(all_swaps[:limit]):
-        print(f"\n[{i+1}] TX: {swap['tx_id'][:16]}...")
-        print(f"    AMM: {swap['amm']}")
-        print(f"    {swap['inputMint'][:20]}... ({swap['inputAmount']}) -> {swap['outputMint'][:20]}... ({swap['outputAmount']})")
+    for protocol_name in PROTOCOLS.keys():
+        data = protocol_data[protocol_name]
+        print(f"\n[{protocol_name.upper()}]")
+
+        for i, swap in enumerate(data['all_swaps'][:limit]):
+            print(f"  [{i+1}] TX: {swap['tx_id'][:16]}...")
+            print(f"      AMM: {swap['amm']}")
+            print(f"      {swap['inputMint'][:20]}... ({swap['inputAmount']}) -> {swap['outputMint'][:20]}... ({swap['outputAmount']})")
 
 
 def save_results():
-    """Save results to JSON files."""
-    # Extract only transaction IDs from arbitrage opportunities
-    arbitrage_tx_ids = [arb["tx_id"] for arb in arbitrage_opportunities]
-
-    # Save arbitrages.json (only transaction IDs, overwrites existing)
-    main_arb_file = "arbitrages.json"
-    with open(main_arb_file, 'w') as f:
-        json.dump(arbitrage_tx_ids, f, indent=2)
-
-    # Save swaps.json (limit to 100 transactions, overwrites existing)
-    # Group swaps by transaction and limit to 100 txns
-    swaps_by_txn = {}
-    for swap in all_swaps:
-        tx_id = swap["tx_id"]
-        if tx_id not in swaps_by_txn:
-            if len(swaps_by_txn) >= 100:
-                break
-            swaps_by_txn[tx_id] = []
-        swaps_by_txn[tx_id].append(swap)
-
-    # Flatten back to list
-    swaps_limited = []
-    for swaps in swaps_by_txn.values():
-        swaps_limited.extend(swaps)
-
-    swaps_file = "swaps.json"
-    with open(swaps_file, 'w') as f:
-        json.dump(swaps_limited, f, indent=2)
-
+    """Save results to JSON files (4 files total: 2 arbitrages + 2 swaps)."""
     print(f"\n{'='*80}")
     print(f"RESULTS SAVED")
     print(f"{'='*80}")
-    print(f"✅ Arbitrages (txn IDs only): {main_arb_file}")
-    print(f"✅ Swaps (max 100 txns): {swaps_file}")
+
+    for protocol_name in PROTOCOLS.keys():
+        data = protocol_data[protocol_name]
+
+        # Extract only transaction IDs from arbitrage opportunities
+        arbitrage_tx_ids = [arb["tx_id"] for arb in data["arbitrage_opportunities"]]
+
+        # Save arbitrages_{protocol}.json (only transaction IDs, overwrites existing)
+        arb_file = f"{protocol_name}_arbitrages.json"
+        with open(arb_file, 'w') as f:
+            json.dump(arbitrage_tx_ids, f, indent=2)
+
+        # Save swaps_{protocol}.json (limit to 100 transactions, overwrites existing)
+        # Group swaps by transaction and limit to 100 txns
+        swaps_by_txn = {}
+        for swap in data["all_swaps"]:
+            tx_id = swap["tx_id"]
+            if tx_id not in swaps_by_txn:
+                if len(swaps_by_txn) >= 100:
+                    break
+                swaps_by_txn[tx_id] = []
+            swaps_by_txn[tx_id].append(swap)
+
+        # Flatten back to list
+        swaps_limited = []
+        for swaps in swaps_by_txn.values():
+            swaps_limited.extend(swaps)
+
+        swaps_file = f"{protocol_name}_swaps.json"
+        with open(swaps_file, 'w') as f:
+            json.dump(swaps_limited, f, indent=2)
+
+        print(f"\n[{protocol_name.upper()}]")
+        print(f"  ✅ Arbitrages (txn IDs only): {arb_file}")
+        print(f"  ✅ Swaps (max 100 txns): {swaps_file}")
 
 
 def print_arbitrage_details():
     """Print detailed arbitrage information."""
-    if not arbitrage_opportunities:
-        print("\nNo arbitrage opportunities found.")
-        return
-
     print(f"\n{'='*80}")
-    print(f"ARBITRAGE OPPORTUNITIES FOUND: {len(arbitrage_opportunities)}")
+    print(f"ARBITRAGE OPPORTUNITIES FOUND")
     print(f"{'='*80}")
 
-    for i, arb in enumerate(arbitrage_opportunities):
-        print(f"\n[{i+1}] TX: {arb['tx_id']}")
-        print(f"    Time: {arb['timestamp']}")
-        print(f"    Swaps: {arb['num_swaps']}")
-        print(f"    AMMs: {', '.join([amm[:16] + '...' for amm in arb['amms']])}")
-        print(f"    Token Path: {len(arb['token_path'])} tokens")
-        print(f"    Profit Token: {arb['profit_token'][:20]}...")
-        print(f"    Profit Amount: +{arb['profit_amount']}")
+    for protocol_name in PROTOCOLS.keys():
+        data = protocol_data[protocol_name]
+        arbitrage_opportunities = data["arbitrage_opportunities"]
+
+        print(f"\n[{protocol_name.upper()}] {len(arbitrage_opportunities)} arbitrages")
+
+        if not arbitrage_opportunities:
+            print("  No arbitrage opportunities found.")
+            continue
+
+        for i, arb in enumerate(arbitrage_opportunities[:5]):  # Show first 5 only
+            print(f"\n  [{i+1}] TX: {arb['tx_id']}")
+            print(f"      Time: {arb['timestamp']}")
+            print(f"      Swaps: {arb['num_swaps']}")
+            print(f"      AMMs: {', '.join([amm[:16] + '...' for amm in arb['amms']])}")
+            print(f"      Token Path: {len(arb['token_path'])} tokens")
+            print(f"      Profit Token: {arb['profit_token'][:20]}...")
+            print(f"      Profit Amount: +{arb['profit_amount']}")
 
 
 def main():
     """Main execution function."""
-    # Step 1: Run for 2 minutes
-    run_for_duration(duration_seconds=120)
+    # Step 1: Run for 3 minutes
+    run_for_duration(duration_seconds=180)
 
     # Step 2: Print all outputs
     print_summary()
