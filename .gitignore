@@ -44,3 +44,6 @@ transaction_debug.json
 specific_tx.json
 sample_transaction.json
 helius_enhanced_tx.json
+
+# Arbitrage timestamped outputs (keep only main arbitrages.json and swaps.json)
+arbitrages/
