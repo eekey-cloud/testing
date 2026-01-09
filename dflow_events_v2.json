@@ -1,0 +1,2914 @@
+[
+  {
+    "tx_id": "5F5RXexcuWvkoX3UkxDrbCnSfkWrphrJxu1sgChRBqV6iNriEpmzk9jUiYD5i4DnjxSLDar3zCHRQjdp2DZcrwcf",
+    "block_slot": 392300201,
+    "block_time": 1767942976,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "73uPQWjxdFPxnAYvoSFTYDo2MFMNhdDbU8t2sF9hzECh",
+          "toTokenAccount": "7JP9KdRhkC9f9twsPd7aX1kdVtfbiMsJamhUdEe7VGhr",
+          "fromUserAccount": "4XzFqpSfHtpTHsEVTyu2BenMdTmi2VqKcC6FYdkor384",
+          "toUserAccount": "9MzDiy5LV7fVUJqDf4ztZVeW4sTyDumDRu8b15eFXsze",
+          "tokenAmount": 0.004149973,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "73uPQWjxdFPxnAYvoSFTYDo2MFMNhdDbU8t2sF9hzECh",
+          "toTokenAccount": "Bvtgim23rfocUzxVX9j9QFxTbBnH8JZxnaGLCEkXvjKS",
+          "fromUserAccount": "4XzFqpSfHtpTHsEVTyu2BenMdTmi2VqKcC6FYdkor384",
+          "toUserAccount": "9rPYyANsfQZw3DnDmKE3YCQF5E8oD89UXoHn9JFEhJUz",
+          "tokenAmount": 3.8588e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "73uPQWjxdFPxnAYvoSFTYDo2MFMNhdDbU8t2sF9hzECh",
+          "toTokenAccount": "AmQTdt7sstUY64Ay1tBPtm3ZacaoiYp1PTC67U5yLcKG",
+          "fromUserAccount": "4XzFqpSfHtpTHsEVTyu2BenMdTmi2VqKcC6FYdkor384",
+          "toUserAccount": "BUjzs1kbtghrydSyxViPjMNQ3AJU131533EE14eXsA1q",
+          "tokenAmount": 1.2448e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "73uPQWjxdFPxnAYvoSFTYDo2MFMNhdDbU8t2sF9hzECh",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "4XzFqpSfHtpTHsEVTyu2BenMdTmi2VqKcC6FYdkor384",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 3.6014e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "77QiwvRWVovc9Hne7bmT1KCpAiaGSf4PZ7mFVT681w6s",
+          "toTokenAccount": "9xnv5ed8exi929FnTbrgJc7TEsKiWibpTD79Rx4Sh1GH",
+          "fromUserAccount": "9MzDiy5LV7fVUJqDf4ztZVeW4sTyDumDRu8b15eFXsze",
+          "toUserAccount": "4XzFqpSfHtpTHsEVTyu2BenMdTmi2VqKcC6FYdkor384",
+          "tokenAmount": 203068.312264,
+          "mint": "46z1gAA93T5LFHrAc3T9D8w4xrDceDmaX6ArVFQ7pump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "2oXbFMDU9Ek6gt7Zb656N6TkU5PuKGNwzYWqTziskoLwsghGzPU4ZbEkous4hitGJiDdNVa7Uv9kVXc25ugdFXJj",
+    "block_slot": 392300201,
+    "block_time": 1767942976,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "2BHTqFkkzb7yVcci4GkQgrZzXt3mnXVEkH9NAiy4zAgA",
+          "toTokenAccount": "57Wz1CKnCWj35yhkHj6huHzQRj3LpkD5nKtNFESm2wbU",
+          "fromUserAccount": "DuCtzPBagBE1foJXegkbTMv9fwFgKyHBHDCbk2Q7K1gi",
+          "toUserAccount": "FHquiE94bun2417CZ5KFCYw5VXk1xM5HSa5i4Z3WzrnG",
+          "tokenAmount": 0.311304878,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2BHTqFkkzb7yVcci4GkQgrZzXt3mnXVEkH9NAiy4zAgA",
+          "toTokenAccount": "FGptqdxjahafaCzpZ1T6EDtCzYMv7Dyn5MgBLyB3VUFW",
+          "fromUserAccount": "DuCtzPBagBE1foJXegkbTMv9fwFgKyHBHDCbk2Q7K1gi",
+          "toUserAccount": "AVmoTthdrX6tKt4nDjco2D775W2YK3sDhxPcMmzUAmTY",
+          "tokenAmount": 0.000157305,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2BHTqFkkzb7yVcci4GkQgrZzXt3mnXVEkH9NAiy4zAgA",
+          "toTokenAccount": "H7LQRheK13ochrVy5QqBi5m6SfVAHCCqs6mY6tJ9H8s8",
+          "fromUserAccount": "DuCtzPBagBE1foJXegkbTMv9fwFgKyHBHDCbk2Q7K1gi",
+          "toUserAccount": "GMybV8Q4285pf1LVQVNURNiVhvUWyTm71RiHuf8x1p2D",
+          "tokenAmount": 0.002516867,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "57Wz1CKnCWj35yhkHj6huHzQRj3LpkD5nKtNFESm2wbU",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "FHquiE94bun2417CZ5KFCYw5VXk1xM5HSa5i4Z3WzrnG",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.002646091,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "6hjAm5qJQpJnLc241VEmgFQo6FJNfzsnYVhrRhUp3JMR",
+          "toTokenAccount": "FPWejxYHEoKkQjA5Zi21jvYXjtJ7r4bz76wFdatuZcwJ",
+          "fromUserAccount": "FHquiE94bun2417CZ5KFCYw5VXk1xM5HSa5i4Z3WzrnG",
+          "toUserAccount": "DuCtzPBagBE1foJXegkbTMv9fwFgKyHBHDCbk2Q7K1gi",
+          "tokenAmount": 82651.711518,
+          "mint": "3Ps2gVJpDyEM2NDPgQNWreVUUn45i3HiRFb9rjdXpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "2N2AAamr38ZjZkkeN296HyhBGk17T7LZRYLs5VzFfx3oaRzYLoEH7MUi83n6n4jKMfAvFUsPrspogoueideNZS3a",
+    "block_slot": 392300201,
+    "block_time": 1767942976,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "87bgmCkNzVHRUVPGEtvT4G7Wfg5dksHvDrUmmDAwapdq",
+          "toTokenAccount": "FVuXpVsxxKxQrWrcDtJrJ9ahxj5e2iUAXKR5HkQ5F4Uh",
+          "fromUserAccount": "9n1hkShYYUHHF5BEXMqfcQ5FbAWRiyP5BtwyvVZFFKuf",
+          "toUserAccount": "BmgTF2Fs751X8Uk1kgT4tewJthfC3687C9RV2SsoUhqi",
+          "tokenAmount": 890735.829499,
+          "mint": "G75caA4mtjpDns3fX8ja4Nj8ZiV6x8hh8e51sjVKpump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CbSCfLBegxa5KfC6XghEuFQV7mcWLk6nD6mE3erd8G75",
+          "toTokenAccount": "DVzvy7zzTrGBu8tpWJjPprKiZvuGwc7AM2qCpFTfJ7gR",
+          "fromUserAccount": "BmgTF2Fs751X8Uk1kgT4tewJthfC3687C9RV2SsoUhqi",
+          "toUserAccount": "9n1hkShYYUHHF5BEXMqfcQ5FbAWRiyP5BtwyvVZFFKuf",
+          "tokenAmount": 0.139839931,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CbSCfLBegxa5KfC6XghEuFQV7mcWLk6nD6mE3erd8G75",
+          "toTokenAccount": "Bvtgim23rfocUzxVX9j9QFxTbBnH8JZxnaGLCEkXvjKS",
+          "fromUserAccount": "BmgTF2Fs751X8Uk1kgT4tewJthfC3687C9RV2SsoUhqi",
+          "toUserAccount": "9rPYyANsfQZw3DnDmKE3YCQF5E8oD89UXoHn9JFEhJUz",
+          "tokenAmount": 0.001300252,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CbSCfLBegxa5KfC6XghEuFQV7mcWLk6nD6mE3erd8G75",
+          "toTokenAccount": "9JekXzAWyBU8Gk4h4NQEoyBC2pCzWWnAL2JQCm5fLLbt",
+          "fromUserAccount": "BmgTF2Fs751X8Uk1kgT4tewJthfC3687C9RV2SsoUhqi",
+          "toUserAccount": "AWpkxYRX2HTctysAyYJPCrvzZt2iBRPShBz9bvVtEM41",
+          "tokenAmount": 0.000419436,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CbSCfLBegxa5KfC6XghEuFQV7mcWLk6nD6mE3erd8G75",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "BmgTF2Fs751X8Uk1kgT4tewJthfC3687C9RV2SsoUhqi",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.001213572,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "3jrhMaW8V8g4RUYYwoZWug3t1nhKD6KHEcLca9wk8Wy7JF2Pa2BibPWc4z4j83g6XrXnzfmgHwfAKa7cyb954qgu",
+    "block_slot": 392300201,
+    "block_time": 1767942976,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "D6dneqvSvurwgT3xzM8VQQz3Ztn5zSqER4VV4fzGGWfS",
+          "toTokenAccount": "4xZYFLR2eyo2vrfsGuJZEPsgZafamE9fFPJ5wYJDW6nU",
+          "fromUserAccount": "Abaqj8ivq6Uoinc9CQiiZ9GQNDB2RFSWqhpJKf9mN6Gu",
+          "toUserAccount": "4xZYFLR2eyo2vrfsGuJZEPsgZafamE9fFPJ5wYJDW6nU",
+          "tokenAmount": 0.01,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BjVanGXAEmHL677Lj7ywusqE7Uaop3sqYb7kiL2LFiK9",
+          "toTokenAccount": "G2DGFffXQPC1nc4v9St1ryoHWmVokBNNRnwBzoDsHWR3",
+          "fromUserAccount": "BjVanGXAEmHL677Lj7ywusqE7Uaop3sqYb7kiL2LFiK9",
+          "toUserAccount": "Abaqj8ivq6Uoinc9CQiiZ9GQNDB2RFSWqhpJKf9mN6Gu",
+          "tokenAmount": 0.007975662,
+          "mint": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "9wG3YrbSMEKhmsgWeDGuDqjP8VNWTuXViaULrau7CCNQZ7dSTe3nLdtjUw9MsGsmceDJNSr8gA85ZmuNFxyiz8d",
+    "block_slot": 392300201,
+    "block_time": 1767942976,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "FS5jHA2k23RRMdD72eYgnQBtNseD4vMTKLb6XvsiuYib",
+          "toTokenAccount": "B6g8dTegNUB7bWd82bZmfjK6JGCqAPpQC5PHEPaSkaNg",
+          "fromUserAccount": "EbeJFLmGQHCz6uDsmSHLLVQ5UGWquRHH19KnG4bR1FY8",
+          "toUserAccount": "FhVo3mqL8PW5pH5U2CN4XE33DokiyZnUwuGpH2hmHLuM",
+          "tokenAmount": 0.665344796,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "Hg3PvGuXe1TWNun4gJzs9z1cnX7ZC1jcegVq5Zf6Trpf",
+          "toTokenAccount": "AGXgpNf7XJXHKsXETE9g3ceQCBLiYsp6m59WrTxMKMmb",
+          "fromUserAccount": "FhVo3mqL8PW5pH5U2CN4XE33DokiyZnUwuGpH2hmHLuM",
+          "toUserAccount": "EbeJFLmGQHCz6uDsmSHLLVQ5UGWquRHH19KnG4bR1FY8",
+          "tokenAmount": 10675585.811849315,
+          "mint": "66KDfxDqaS5vaxAT5bHkxmeUKhVkX6FogZjBJBQKBAGS",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FS5jHA2k23RRMdD72eYgnQBtNseD4vMTKLb6XvsiuYib",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "EbeJFLmGQHCz6uDsmSHLLVQ5UGWquRHH19KnG4bR1FY8",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.005703914,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "2utubib39dovjCHkGenufQ7XKeyCKtWqMr4euxvcBStP6tJFyuQuyPpUH13iER66nSW3sZpqoaMwvi33iJbAKBB1",
+    "block_slot": 392300200,
+    "block_time": 1767942976,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "FQPPwqbggMcxdrAEC8bceLJeJsJ136JGYjqSfbGbCC4i",
+          "toTokenAccount": "nLvsgMUu9oar9V1w4aLyM3Bvaem33eqUEPc7eyDqYzF",
+          "fromUserAccount": "3j7FY8iSHpxR9Bu92yMyDuneGE5Y3BVX8BSPjWX6sPjM",
+          "toUserAccount": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
+          "tokenAmount": 148.639794,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "9fLndapkF7mQxncUFCf6wVFCuouWe8D4QziU8amJCDjP",
+          "toTokenAccount": "EQYh7LkSJdpVH33bqkxv9V1uYHPML2LJpFFsdvjgFG5o",
+          "fromUserAccount": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
+          "toUserAccount": "3j7FY8iSHpxR9Bu92yMyDuneGE5Y3BVX8BSPjWX6sPjM",
+          "tokenAmount": 84.458934,
+          "mint": "Shzpb942EjHQtDuw6WxPH7BnkEFS8WT8pcXQu8o7ory",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2QoFSiXpLUxBjJnF7UkGmZ5omBfkrteVm82DbqRwZAfZ",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "3j7FY8iSHpxR9Bu92yMyDuneGE5Y3BVX8BSPjWX6sPjM",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.00910179,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "7Rf8Gu8YemSoGjZT3z1cL5BT9HLbGywcyaz8Mrbhd1MH",
+          "toTokenAccount": "FQPPwqbggMcxdrAEC8bceLJeJsJ136JGYjqSfbGbCC4i",
+          "fromUserAccount": "6n9VhCwQ7EwK6NqFDjnHPzEk6wZdRBTfh43RFgHQWHuQ",
+          "toUserAccount": "3j7FY8iSHpxR9Bu92yMyDuneGE5Y3BVX8BSPjWX6sPjM",
+          "tokenAmount": 106.996484,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2QoFSiXpLUxBjJnF7UkGmZ5omBfkrteVm82DbqRwZAfZ",
+          "toTokenAccount": "Cv9St5tDTGwpbG5UVvM6QvFmf3FYSXc14W9BYvQN5wAZ",
+          "fromUserAccount": "3j7FY8iSHpxR9Bu92yMyDuneGE5Y3BVX8BSPjWX6sPjM",
+          "toUserAccount": "6n9VhCwQ7EwK6NqFDjnHPzEk6wZdRBTfh43RFgHQWHuQ",
+          "tokenAmount": 0.764421944,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FBWtVVvzsRuAAzVX8ua1hden9KmgPrC2rFijuwEn1ngJ",
+          "toTokenAccount": "FQPPwqbggMcxdrAEC8bceLJeJsJ136JGYjqSfbGbCC4i",
+          "fromUserAccount": "AvGeFw71N5sNfV97mZ1uNrHg4yfufRicCJUrS9j2ehTX",
+          "toUserAccount": "3j7FY8iSHpxR9Bu92yMyDuneGE5Y3BVX8BSPjWX6sPjM",
+          "tokenAmount": 41.64331,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2QoFSiXpLUxBjJnF7UkGmZ5omBfkrteVm82DbqRwZAfZ",
+          "toTokenAccount": "ECEPWwZJ1U1Vjsj1X5sUbZYETKMSCjYHuoTMVitCn64t",
+          "fromUserAccount": "3j7FY8iSHpxR9Bu92yMyDuneGE5Y3BVX8BSPjWX6sPjM",
+          "toUserAccount": "AvGeFw71N5sNfV97mZ1uNrHg4yfufRicCJUrS9j2ehTX",
+          "tokenAmount": 0.297275201,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "a2w6F6MkHGSs9ZtoP5aBDvFvYmZ2RnRt6LPJtegcNwDmyCno3qagZBDBuzyGGRZCx2EZdrjEW6YUCwjBy6zjEks",
+    "block_slot": 392300198,
+    "block_time": 1767942975,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "7SUbchoNyUMRyk4KH1BXALwpdGnSBSEwuY2zZSmpPvtX",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "CRwjkQUTAZTPQm4rs9yUbnBkvtySuvm3exHkHHCqRxjk",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.000255,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "4XStChGGiZ1K9Em7umWZRzGaoWVLtysN9AuN4p7iiaGP",
+          "toTokenAccount": "BmtTrybqhqXkZ8rUvCdK4bqnHoBNSPccEtEhMGpZKGdr",
+          "fromUserAccount": "24udTcMZc9ydYSGg434huaEE5WQ8k8QKDwXXqcrpHQyC",
+          "toUserAccount": "CRwjkQUTAZTPQm4rs9yUbnBkvtySuvm3exHkHHCqRxjk",
+          "tokenAmount": 705091.721924,
+          "mint": "Bsn8DvTH4PA435fay5zgM14ffxYsphmKqvxy6vHZpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "RZ9AW6H1peFX6c9fGpMEnHGt4fQVSqUZn7auhSCz8STu7NQhcshxZseT9wZRJ1CPaSS7uRc5t8E6xqB3p1KeN7H",
+    "block_slot": 392300198,
+    "block_time": 1767942975,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "8Y1MgAD5xpZDhFJzunUdoyDY7zXT8jMSfscYXoFihmh7",
+          "toTokenAccount": "9ivzxiz9X1qzFzbbJvGyGCn3ReuLM9wqevaz5jQU2zU9",
+          "fromUserAccount": "2yf38DKf3j2NKkaYpokNKv7tGmX5G2gedjJvWKVLkFYx",
+          "toUserAccount": "7UKoq8sVvyLetZP4Bpdd4m7LuFwDQoxmfgiqxGhr9s47",
+          "tokenAmount": 69302.962903,
+          "mint": "ACHEprPEhxibTS5URUtTb44NFA14wpb7vHoTu3rZpump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "H2JYPpiFHKUKiK2tNCAaKJwjTQ5drjRLueG12K86F842",
+          "toTokenAccount": "3Zm19rMmKcbKxwWbtxb3A3xjoCpwoD58za8AsEfn4eWb",
+          "fromUserAccount": "7UKoq8sVvyLetZP4Bpdd4m7LuFwDQoxmfgiqxGhr9s47",
+          "toUserAccount": "2yf38DKf3j2NKkaYpokNKv7tGmX5G2gedjJvWKVLkFYx",
+          "tokenAmount": 0.090204511,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "H2JYPpiFHKUKiK2tNCAaKJwjTQ5drjRLueG12K86F842",
+          "toTokenAccount": "FGptqdxjahafaCzpZ1T6EDtCzYMv7Dyn5MgBLyB3VUFW",
+          "fromUserAccount": "7UKoq8sVvyLetZP4Bpdd4m7LuFwDQoxmfgiqxGhr9s47",
+          "toUserAccount": "AVmoTthdrX6tKt4nDjco2D775W2YK3sDhxPcMmzUAmTY",
+          "tokenAmount": 4.5013e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "H2JYPpiFHKUKiK2tNCAaKJwjTQ5drjRLueG12K86F842",
+          "toTokenAccount": "DGGpxm8H8Bj5Dc1wZaLzPPVuiXsJTHoxvP5iR8tje1BK",
+          "fromUserAccount": "7UKoq8sVvyLetZP4Bpdd4m7LuFwDQoxmfgiqxGhr9s47",
+          "toUserAccount": "CUdmpcWRWqE6Q3wkGeFXrQ4WyukBzhiuVeDTNV5sMknJ",
+          "tokenAmount": 0.000855233,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "H2JYPpiFHKUKiK2tNCAaKJwjTQ5drjRLueG12K86F842",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "7UKoq8sVvyLetZP4Bpdd4m7LuFwDQoxmfgiqxGhr9s47",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.000781029,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "5jQWt3QDz3j8JP8GQizcNeJk7xNbAghMAxZajvvz3ZnV8rzmqLC55LHkUDqbqaCQ5pso6GUQwoRtNCV8Puof32Zm",
+    "block_slot": 392300198,
+    "block_time": 1767942975,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "ALNSPC9mUwkA1RwP4r1RfMSyhJDpgZ8GhbkbE2YQKw2g",
+          "toTokenAccount": "CeWhrRpkruDS3cRb6iP11sZGHXyU9im5Lu2A194hgwFA",
+          "fromUserAccount": "BDZ6smW43JGCqhyBPJWeZYQGcErKfisw7GerBFQLtWhS",
+          "toUserAccount": "EodpU5vspoyfQWosCoBmk8CEBhVtqMo6u2nnp5nk32f3",
+          "tokenAmount": 0.29451077,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "ALNSPC9mUwkA1RwP4r1RfMSyhJDpgZ8GhbkbE2YQKw2g",
+          "toTokenAccount": "Bvtgim23rfocUzxVX9j9QFxTbBnH8JZxnaGLCEkXvjKS",
+          "fromUserAccount": "BDZ6smW43JGCqhyBPJWeZYQGcErKfisw7GerBFQLtWhS",
+          "toUserAccount": "9rPYyANsfQZw3DnDmKE3YCQF5E8oD89UXoHn9JFEhJUz",
+          "tokenAmount": 0.000146962,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "ALNSPC9mUwkA1RwP4r1RfMSyhJDpgZ8GhbkbE2YQKw2g",
+          "toTokenAccount": "3Wb1XrASAzbM1i65zTy1LFhxJtEfSUEZcwpJDG3MsZCt",
+          "fromUserAccount": "BDZ6smW43JGCqhyBPJWeZYQGcErKfisw7GerBFQLtWhS",
+          "toUserAccount": "Akcxd92FX6dysXLJPamBJkDS62xWy3mFK4VzSUb4UEKP",
+          "tokenAmount": 0.002792268,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "ALNSPC9mUwkA1RwP4r1RfMSyhJDpgZ8GhbkbE2YQKw2g",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "BDZ6smW43JGCqhyBPJWeZYQGcErKfisw7GerBFQLtWhS",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.00255,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3RMKWBc5vRzXdDMm4BhHZuJv6T832gUeTM9v72BuKiv6",
+          "toTokenAccount": "G1G3Ft6U3bRedJCrxiB1buvNjZqdwFBeBZqJrWvT9opk",
+          "fromUserAccount": "EodpU5vspoyfQWosCoBmk8CEBhVtqMo6u2nnp5nk32f3",
+          "toUserAccount": "BDZ6smW43JGCqhyBPJWeZYQGcErKfisw7GerBFQLtWhS",
+          "tokenAmount": 566285.335643,
+          "mint": "8vcTShGw58Kah7eTFHzof8Rajbs1miRBSFvDJfMspump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "37Cgw4BeygkRSP9sAhRwTj6ttxoETks6Yya4yeM4uBycGCy3avGXj6ejAFR9ZEDc4KoCfpKWrCezfxA6bw9AVjMg",
+    "block_slot": 392300198,
+    "block_time": 1767942975,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "5GFEhWbUmf6FL3EHxvXhB1dWDYvHxda4gcgyb3oQiErK",
+          "toTokenAccount": "5pPBNvw6LX3TwZ5wBBca1JJTqtgmo1L8Y9GchLK2T7u2",
+          "fromUserAccount": "54LSXDSrfD8LFX2LPMURSdYXcxYG2Ztu1dYwzjQfLSjt",
+          "toUserAccount": "GjK3S2ZgxTVFEkxg43JE8eC1tbztWCseBYyZ8o8sg9f",
+          "tokenAmount": 0.124272908,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5GFEhWbUmf6FL3EHxvXhB1dWDYvHxda4gcgyb3oQiErK",
+          "toTokenAccount": "FGptqdxjahafaCzpZ1T6EDtCzYMv7Dyn5MgBLyB3VUFW",
+          "fromUserAccount": "54LSXDSrfD8LFX2LPMURSdYXcxYG2Ztu1dYwzjQfLSjt",
+          "toUserAccount": "AVmoTthdrX6tKt4nDjco2D775W2YK3sDhxPcMmzUAmTY",
+          "tokenAmount": 6.2013e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5GFEhWbUmf6FL3EHxvXhB1dWDYvHxda4gcgyb3oQiErK",
+          "toTokenAccount": "C6Cpabb1Hya3tAqRGzCJSBypoCtQzqdcszeeJTUMjZtJ",
+          "fromUserAccount": "54LSXDSrfD8LFX2LPMURSdYXcxYG2Ztu1dYwzjQfLSjt",
+          "toUserAccount": "7UNb4M5v1SJVToQYDocX3FfPtY4MVHRtHsy6ZALKLsi1",
+          "tokenAmount": 0.001116224,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5GFEhWbUmf6FL3EHxvXhB1dWDYvHxda4gcgyb3oQiErK",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "54LSXDSrfD8LFX2LPMURSdYXcxYG2Ztu1dYwzjQfLSjt",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.001075476,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "hnod1WYD1xtT8JkZMU8mo1cz7EU1Wa2thmXJmTuXfKB",
+          "toTokenAccount": "GqiRfRuXxz6SKmje9dkTxSX5L6YaHd3P5fcENDUYmRTz",
+          "fromUserAccount": "GjK3S2ZgxTVFEkxg43JE8eC1tbztWCseBYyZ8o8sg9f",
+          "toUserAccount": "54LSXDSrfD8LFX2LPMURSdYXcxYG2Ztu1dYwzjQfLSjt",
+          "tokenAmount": 80527.21648,
+          "mint": "GfLD9EQn7A1UjopYVJ8aUUjHQhX14dwFf8oBWKW8pump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "4Wndu2pyygjRq9yjs1Dopz9aLi2mbBabuFGCJwoWKNTqkw2FDt5YQPaYbCiYUUydqmkRR5MZD6G3t4szKAbaiz5Z",
+    "block_slot": 392300197,
+    "block_time": 1767942975,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "8aCXQ82ExafNcw65HGugMJPyNU8xQpnMzrzJ1q7yPLzx",
+          "toTokenAccount": "7eqweYaTpPv8fEZVZyciuy4kU461eQykNadsUo2EpyKY",
+          "fromUserAccount": "7vB8SjV1GACvAGS5CBokUAu8faisXtS3iqdtaiBw7xjn",
+          "toUserAccount": "5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M",
+          "tokenAmount": 51.994495,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "71ESqo2YnkcqzvrL1kHtnenrEGoUer4HAK4y7CkbhgAy",
+          "toTokenAccount": "4GKcafruRdK6rBmgFoYrrovbo2Z2cCMt6vGGWkvt1eFY",
+          "fromUserAccount": "5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M",
+          "toUserAccount": "7vB8SjV1GACvAGS5CBokUAu8faisXtS3iqdtaiBw7xjn",
+          "tokenAmount": 17090.001592,
+          "mint": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3zET7HxyxajTg3AL8eABheKJaMYHniheY8U3C2aDDWHE",
+          "toTokenAccount": "4p6RyLH1df8bKsdi1Jk7PEZQgFXAx62VgHZaxBPivJn2",
+          "fromUserAccount": "7vB8SjV1GACvAGS5CBokUAu8faisXtS3iqdtaiBw7xjn",
+          "toUserAccount": "7U8DUKAds4SKeKU9zWNdM6iVXrsLc7fx8VUY5sw2zjWz",
+          "tokenAmount": 0.442731471,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "GV14a6UDUSMUbAsKRagXxdQoZYmievE5ycaUaKwMdxAG",
+          "toTokenAccount": "4GKcafruRdK6rBmgFoYrrovbo2Z2cCMt6vGGWkvt1eFY",
+          "fromUserAccount": "7U8DUKAds4SKeKU9zWNdM6iVXrsLc7fx8VUY5sw2zjWz",
+          "toUserAccount": "7vB8SjV1GACvAGS5CBokUAu8faisXtS3iqdtaiBw7xjn",
+          "tokenAmount": 20418.756205,
+          "mint": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "8aCXQ82ExafNcw65HGugMJPyNU8xQpnMzrzJ1q7yPLzx",
+          "toTokenAccount": "J8gt2jBUi6DW6gdUdm1fkP9oGN4xXwPdQbCZkkN78R3Z",
+          "fromUserAccount": "7vB8SjV1GACvAGS5CBokUAu8faisXtS3iqdtaiBw7xjn",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.9775,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "8BrVfsvzb1DZqCactbYWoKSv24AfsLBuXJqzpzYCwznF",
+          "toTokenAccount": "3zET7HxyxajTg3AL8eABheKJaMYHniheY8U3C2aDDWHE",
+          "fromUserAccount": "DB3sUCP2H4icbeKmK6yb6nUxU5ogbcRHtGuq7W2RoRwW",
+          "toUserAccount": "7vB8SjV1GACvAGS5CBokUAu8faisXtS3iqdtaiBw7xjn",
+          "tokenAmount": 0.442731471,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "8aCXQ82ExafNcw65HGugMJPyNU8xQpnMzrzJ1q7yPLzx",
+          "toTokenAccount": "HsQcHFFNUVTp3MWrXYbuZchBNd4Pwk8636bKzLvpfYNR",
+          "fromUserAccount": "7vB8SjV1GACvAGS5CBokUAu8faisXtS3iqdtaiBw7xjn",
+          "toUserAccount": "DB3sUCP2H4icbeKmK6yb6nUxU5ogbcRHtGuq7W2RoRwW",
+          "tokenAmount": 62.028005,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "4WSSFwHXFZc6tSYzxNGRJ5qBKbYcRJumfoRj86LWajxHjM2c3uRsSfwSMR76UjCET2aoL1JQkX6fBoLdVkTsYT2t",
+    "block_slot": 392300197,
+    "block_time": 1767942975,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "4SBG94nURp6joG2se1sUBeHMg44q56kbWog2B98aTpY6",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "2ymLoYB7YSuEnvYBDo1CzVNCpk64u1bNFKmMrxwuZYBS",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.000385748,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "4SBG94nURp6joG2se1sUBeHMg44q56kbWog2B98aTpY6",
+          "toTokenAccount": "2CpHeVdq1NqZUPimRTyDYSVAziS8p2EhrqbetxYHjb6Z",
+          "fromUserAccount": "2ymLoYB7YSuEnvYBDo1CzVNCpk64u1bNFKmMrxwuZYBS",
+          "toUserAccount": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+          "tokenAmount": 0.044996372,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "GVMrhSZ45kpdA3Jvwj3oSexBiYHTMFsreQmfNsXskrzg",
+          "toTokenAccount": "3scTp8TAvsJnAvTji5nZr6KBNRfvkRbc6HRRWdDQsWw3",
+          "fromUserAccount": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+          "toUserAccount": "2ymLoYB7YSuEnvYBDo1CzVNCpk64u1bNFKmMrxwuZYBS",
+          "tokenAmount": 37359.307488,
+          "mint": "FpECzw6x8RG4VBXfnVg3UJd8pq9CCxJUSWCKb4gebq8B",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "4ReHz2iSNmvt4x2jjQDVHsqk5V6bmcevpttcCx8UtN1Fs2D2Db9W69Ad8mw5z41jG1afcLJBQnwAxzYUHoJxR7gC",
+    "block_slot": 392300196,
+    "block_time": 1767942974,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "6tNL6KSFeBDmPbvbf8ZYQB4zH9w7bd9GY3e5npAPQ61b",
+          "toTokenAccount": "23Fw3VBKEVqxApSubtR11kX62WcHdHGqKBV562pugPvg",
+          "fromUserAccount": "Acobv3Z8TPKnj7iA2zUFgeSDt2qzCt9XPtPtDrvPdggc",
+          "toUserAccount": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "tokenAmount": 272620.262112,
+          "mint": "63HESpgYsa4KHgntbg2F5nhexQJamj7sJNneqiJ7bonk",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "ADXwUbfV8j4Y9ttmadzJ8PGVSkkvucNYw2J6bP7dgTYP",
+          "toTokenAccount": "F6MxMoaD2hR6vLoqLgYFqHpFyh24RCzjEog7UHhd8nxZ",
+          "fromUserAccount": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "toUserAccount": "Acobv3Z8TPKnj7iA2zUFgeSDt2qzCt9XPtPtDrvPdggc",
+          "tokenAmount": 3.177768,
+          "mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "ADXwUbfV8j4Y9ttmadzJ8PGVSkkvucNYw2J6bP7dgTYP",
+          "toTokenAccount": "Cyu7XFTGSHSwFtsghriq9DfGVMehrdCaepFefFKNdcKB",
+          "fromUserAccount": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "toUserAccount": "56XVRVAsgWv6ADaxzoNnbL38LMoWKM5WiSAhrAWUbd2p",
+          "tokenAmount": 0.032196,
+          "mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "ADXwUbfV8j4Y9ttmadzJ8PGVSkkvucNYw2J6bP7dgTYP",
+          "toTokenAccount": "5GPcCAnv2QNbgA5mukaJbHFWRKDAt3Smfd64C2mkBvy7",
+          "fromUserAccount": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "toUserAccount": "9sHpTfmVpCfP2zexRNK6j38NBchMv1RWpdXPK5NEcZan",
+          "tokenAmount": 0.001609,
+          "mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "F6MxMoaD2hR6vLoqLgYFqHpFyh24RCzjEog7UHhd8nxZ",
+          "toTokenAccount": "BSTgtrJ7feyTpvwZVk9hbzrvxw77eUq7SkRCaCEvPfdZ",
+          "fromUserAccount": "Acobv3Z8TPKnj7iA2zUFgeSDt2qzCt9XPtPtDrvPdggc",
+          "toUserAccount": "7DYHBVJNBSu3pZZkSt6Sdq3rbGuCQH2MJAuHqVY6oG2Q",
+          "tokenAmount": 3.177768,
+          "mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "B2mEmSEvEJUjpmFJXmAw1zmT7iVgqUWoUDRUbKTHskiQ",
+          "toTokenAccount": "4rUiwRywPamFn91qjtVLM2BbSHQ3TZcaH6oXbLQc71G9",
+          "fromUserAccount": "7DYHBVJNBSu3pZZkSt6Sdq3rbGuCQH2MJAuHqVY6oG2Q",
+          "toUserAccount": "Acobv3Z8TPKnj7iA2zUFgeSDt2qzCt9XPtPtDrvPdggc",
+          "tokenAmount": 0.022664523,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "3PDLWAA2AmtpyG91Z8Di8KCZPMw7mTPzjqz9eS3H5UWxGXPLrkRPD61ba89vDFHd42Ad7nWVUChH2xBFC6E7bt6f",
+    "block_slot": 392300196,
+    "block_time": 1767942974,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "3f53MGX56ymWajS55QhYDZhYj2YQq1y2xvDhaAtdXNb5",
+          "toTokenAccount": "8BnxwQMsU7frgq94poEJ5XWtAqDVW5mCcVQpQcVi1M8Z",
+          "fromUserAccount": "6fT8aGTxvnEkMbwsBbkNKe3r1eViupfrNupBC38Mjgvp",
+          "toUserAccount": "5XbRDoL7YpKYwUKSfBZBFiJaipUtVXrFVtyVXoVSeKsQ",
+          "tokenAmount": 0.163657758,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3f53MGX56ymWajS55QhYDZhYj2YQq1y2xvDhaAtdXNb5",
+          "toTokenAccount": "BWXT6RUhit9FfJQM3pBmqeFLPYmuxgmyhMGC5sGr8RbA",
+          "fromUserAccount": "6fT8aGTxvnEkMbwsBbkNKe3r1eViupfrNupBC38Mjgvp",
+          "toUserAccount": "G5UZAVbAf46s7cKWoyKu8kYTip9DGTpbLZ2qa9Aq69dP",
+          "tokenAmount": 8.1666e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3f53MGX56ymWajS55QhYDZhYj2YQq1y2xvDhaAtdXNb5",
+          "toTokenAccount": "DUx9Y3mSP1yHH3prT7i4beL4YqTFZMSxBRikNt3MG7Bn",
+          "fromUserAccount": "6fT8aGTxvnEkMbwsBbkNKe3r1eViupfrNupBC38Mjgvp",
+          "toUserAccount": "GHV95GsM6RrJ7sFPKWSRNSuqWzfoHheWV2dHHSo25jHL",
+          "tokenAmount": 0.000979987,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5abjG1XnaquwFhozkr2z44xPn5DmBGcsEhsuQkr4UcNo",
+          "toTokenAccount": "F3Ev6UxSo5gHZkLeoHrvJxpoKgLcTAngG3vCYSckduSF",
+          "fromUserAccount": "6fT8aGTxvnEkMbwsBbkNKe3r1eViupfrNupBC38Mjgvp",
+          "toUserAccount": "8psNvWTrdNTiVRNzAgsou9kETXNJm2SXZyaKuJraVRtf",
+          "tokenAmount": 0.001342168,
+          "mint": "pSo1f9nQXWgXibFtKf7NWYxb5enAM4qfP6UJSiXRQfL",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5abjG1XnaquwFhozkr2z44xPn5DmBGcsEhsuQkr4UcNo",
+          "toTokenAccount": "BQ38TkLUZDQVEY9mviWod83xmsRqn763bJW6tnvbBBVf",
+          "fromUserAccount": "6fT8aGTxvnEkMbwsBbkNKe3r1eViupfrNupBC38Mjgvp",
+          "toUserAccount": "BQ38TkLUZDQVEY9mviWod83xmsRqn763bJW6tnvbBBVf",
+          "tokenAmount": 0.156560053,
+          "mint": "pSo1f9nQXWgXibFtKf7NWYxb5enAM4qfP6UJSiXRQfL",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "64x3ttqQGsBFsGZHRogx8CzWjBdCHVH8GDJKMVakxNB5",
+          "toTokenAccount": "3f53MGX56ymWajS55QhYDZhYj2YQq1y2xvDhaAtdXNb5",
+          "fromUserAccount": "64x3ttqQGsBFsGZHRogx8CzWjBdCHVH8GDJKMVakxNB5",
+          "toUserAccount": "6fT8aGTxvnEkMbwsBbkNKe3r1eViupfrNupBC38Mjgvp",
+          "tokenAmount": 0.164719411,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "MvVQh6exaUKYHQsaWprLxMF7ML6Pknu74ejATRy53aX",
+          "toTokenAccount": "GgUbUDe2dWPB8uE6GYe4EnxAdCnYJtxvGbti255wzPpQ",
+          "fromUserAccount": "5XbRDoL7YpKYwUKSfBZBFiJaipUtVXrFVtyVXoVSeKsQ",
+          "toUserAccount": "6fT8aGTxvnEkMbwsBbkNKe3r1eViupfrNupBC38Mjgvp",
+          "tokenAmount": 6681.30752,
+          "mint": "DNhQZ1CE9qZ2FNrVhsCXwQJ2vZG8ufZkcYakTS5Jpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "3AXpzDjcmpa5bfBtQqHgH2jnf8pCScn17KuktK3ArHZ8828YEASK4hm16hQsmyPQjaUua7senGNiRbq3kKSqfUfL",
+    "block_slot": 392300195,
+    "block_time": 1767942974,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "5Wqz9QVrirDV5qwsBXBVLKqar6XwfJdiuyo97rUJRYmx",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "5mPiquDJix8xLHPnminP6Lraw5iCwV7v97Uu7Y3iRK3W",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.001516965,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "4o8yHoi1sCy5NEvZTYGiPHUTXN84wvpsdnwdGbupJMuK",
+          "toTokenAccount": "CosW5iA8CZRtpJkMLC4TsHEENAwffBdYr9Yri6YJGVXt",
+          "fromUserAccount": "FwRTc3SmuGTqMoBMnYBTiHgtEGwmgE2WShR4ehwwLSLa",
+          "toUserAccount": "5mPiquDJix8xLHPnminP6Lraw5iCwV7v97Uu7Y3iRK3W",
+          "tokenAmount": 5816133.199029,
+          "mint": "HnpfBJzjY5pPVDhZXhHvsNJizuLtuN4o1EtHnDCppump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "kxBhSiBuZKB4bEfwnANXHjq461JZYTc9wiYY3gMxyoNyepxWUHxakjrbuEVSwD9svQQUjy4pQ4EBkCNtHhHFNiL",
+    "block_slot": 392300194,
+    "block_time": 1767942974,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "CffiuHDiZFgX2F9iMeUzVaGtEU3LtcmBhLiJQixgqDEN",
+          "toTokenAccount": "3LHhR135CyooL4bppLDNeHj3uDTZeKBLwGVcLsYLSWms",
+          "fromUserAccount": "Bieo47kbRg1YVpdFiZfddoxGX98Nn4dZQ271QjbEwH2c",
+          "toUserAccount": "EqNzMLPJaYA1vN65foWEfvzufu9c3SW3zN3kx46ponBR",
+          "tokenAmount": 0.458101,
+          "mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3tqDSYEiENUJwnqrAW2z85tNTEpaDaR4s1JmxkvZgrWg",
+          "toTokenAccount": "69vSbJrcruhQDQYAStQzBS5np4gWSxwzWdSgAzBAXLn5",
+          "fromUserAccount": "EqNzMLPJaYA1vN65foWEfvzufu9c3SW3zN3kx46ponBR",
+          "toUserAccount": "Bieo47kbRg1YVpdFiZfddoxGX98Nn4dZQ271QjbEwH2c",
+          "tokenAmount": 0.00071091,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "69vSbJrcruhQDQYAStQzBS5np4gWSxwzWdSgAzBAXLn5",
+          "toTokenAccount": "9Mn5J4pnompJwspsJgyXJGshAiMcKRBz9EG17L9MvwF2",
+          "fromUserAccount": "Bieo47kbRg1YVpdFiZfddoxGX98Nn4dZQ271QjbEwH2c",
+          "toUserAccount": "7nJUTTtgA2DUePmsPjKKDbJSGV4jVkR1g47oRtnUyjKb",
+          "tokenAmount": 0.00071091,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "4TtmunYEe4tZvUhBDsFyXGG3UGw2RSxn8VgexpdNYWmj",
+          "toTokenAccount": "5WNuWhzALXzwigydhX8YBsP8v3C2iJab6qqzHm3vByTR",
+          "fromUserAccount": "7nJUTTtgA2DUePmsPjKKDbJSGV4jVkR1g47oRtnUyjKb",
+          "toUserAccount": "Bieo47kbRg1YVpdFiZfddoxGX98Nn4dZQ271QjbEwH2c",
+          "tokenAmount": 0.24778,
+          "mint": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FpqzUjo7zDj7EdDn336qZaaisvxBpMGkd27mmRtVLgDt",
+          "toTokenAccount": "8gzZkHLfnJV2fH5UB79WANVs3zEh6MhnjsmoMHnMuVvP",
+          "fromUserAccount": "FAYL7CoNENA6jGCWVJb5MZ7mjKuiiyYRkDTopdVticpp",
+          "toUserAccount": "Bieo47kbRg1YVpdFiZfddoxGX98Nn4dZQ271QjbEwH2c",
+          "tokenAmount": 0.099555,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5WNuWhzALXzwigydhX8YBsP8v3C2iJab6qqzHm3vByTR",
+          "toTokenAccount": "9dt86PLMhntCBm1jpQCi6zsFTtGBR7rvVEGhdk3pp1T5",
+          "fromUserAccount": "Bieo47kbRg1YVpdFiZfddoxGX98Nn4dZQ271QjbEwH2c",
+          "toUserAccount": "FAYL7CoNENA6jGCWVJb5MZ7mjKuiiyYRkDTopdVticpp",
+          "tokenAmount": 0.24778,
+          "mint": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "8gzZkHLfnJV2fH5UB79WANVs3zEh6MhnjsmoMHnMuVvP",
+          "toTokenAccount": "3hVztnGsAWjBs8uKAA4eZ1PSXjun74AAp11BdmeTMgXy",
+          "fromUserAccount": "Bieo47kbRg1YVpdFiZfddoxGX98Nn4dZQ271QjbEwH2c",
+          "toUserAccount": "2rbMgYvzAb3xDk6vXrzKkY3VwsmyDZsJTkvB3JJYsRzA",
+          "tokenAmount": 0.000806,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "59FYiB1Dc9sixcYWDhTEdWiKB7FNStv9rVTBEb25cshpwjz4sK3znb6juwUH7L2R7RTgYd2JDdMNoGcgSoJnjHbP",
+    "block_slot": 392300194,
+    "block_time": 1767942974,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "47iGijBRtLqH2avqzhoPpTs3yjoWTDoDh2QS3GpWfZz1",
+          "toTokenAccount": "7CkenieuAv8Xuk3CUUmLeZcrs47esS1VUpJSBe3atyJA",
+          "fromUserAccount": "ACihWqwvfryJsMiS7s1SsfWTRNs3Uih1o8RR6h55uvby",
+          "toUserAccount": "23A37aiq7Bkdvv8dNpkGYeRYxkBc7VFJhczrFNZQf3iR",
+          "tokenAmount": 0.222141627,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "47iGijBRtLqH2avqzhoPpTs3yjoWTDoDh2QS3GpWfZz1",
+          "toTokenAccount": "X5QPJcpph4mBAJDzc4hRziFftSbcygV59kRb2Fu6Je1",
+          "fromUserAccount": "ACihWqwvfryJsMiS7s1SsfWTRNs3Uih1o8RR6h55uvby",
+          "toUserAccount": "7hTckgnGnLQR6sdH7YkqFTAA7VwTfYFaZ6EhEsU3saCX",
+          "tokenAmount": 0.002065505,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "47iGijBRtLqH2avqzhoPpTs3yjoWTDoDh2QS3GpWfZz1",
+          "toTokenAccount": "EFDmujePNYryNUqe864MHAr4dczDGqhKXiqEbF1b4w1K",
+          "fromUserAccount": "ACihWqwvfryJsMiS7s1SsfWTRNs3Uih1o8RR6h55uvby",
+          "toUserAccount": "ESnx6Bb25hhhj5GaK9JMSH2cSZNKR3ekgA1csAfJj91N",
+          "tokenAmount": 0.000666292,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "47iGijBRtLqH2avqzhoPpTs3yjoWTDoDh2QS3GpWfZz1",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "ACihWqwvfryJsMiS7s1SsfWTRNs3Uih1o8RR6h55uvby",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.00192781,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FPS3Au7QxWQCG4YD8R2ixGZbEARdhsVxrLAakqNmJCxo",
+          "toTokenAccount": "FKTiudF6aLZ5SSThEM5PAgQC7sxm39YAbzzajUC6DtyA",
+          "fromUserAccount": "23A37aiq7Bkdvv8dNpkGYeRYxkBc7VFJhczrFNZQf3iR",
+          "toUserAccount": "ACihWqwvfryJsMiS7s1SsfWTRNs3Uih1o8RR6h55uvby",
+          "tokenAmount": 994921.403454,
+          "mint": "BFpBCarmQiB4nkSmDrZ8fJBcyXzJmcaW95p2Y8Y5pump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "3k4mcRbLJoC6fRNsTxckoFVKukpKinLkfbCHeRRXnvgH6dksx5qNNFchjdDqoVEosXMmX1AazjkDhxmGmQKmd6m4",
+    "block_slot": 392300194,
+    "block_time": 1767942974,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "5H5ms5hqopN9NL1TuoqBAiqnbXe2iPQPGy53AXevpbxS",
+          "toTokenAccount": "7CkenieuAv8Xuk3CUUmLeZcrs47esS1VUpJSBe3atyJA",
+          "fromUserAccount": "A1Pff7cjbpvmHx8CPP53h5ezWCbrdRkmNTZi13q5kvxj",
+          "toUserAccount": "23A37aiq7Bkdvv8dNpkGYeRYxkBc7VFJhczrFNZQf3iR",
+          "tokenAmount": 0.266503639,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5H5ms5hqopN9NL1TuoqBAiqnbXe2iPQPGy53AXevpbxS",
+          "toTokenAccount": "Bvtgim23rfocUzxVX9j9QFxTbBnH8JZxnaGLCEkXvjKS",
+          "fromUserAccount": "A1Pff7cjbpvmHx8CPP53h5ezWCbrdRkmNTZi13q5kvxj",
+          "toUserAccount": "9rPYyANsfQZw3DnDmKE3YCQF5E8oD89UXoHn9JFEhJUz",
+          "tokenAmount": 0.002477989,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5H5ms5hqopN9NL1TuoqBAiqnbXe2iPQPGy53AXevpbxS",
+          "toTokenAccount": "EFDmujePNYryNUqe864MHAr4dczDGqhKXiqEbF1b4w1K",
+          "fromUserAccount": "A1Pff7cjbpvmHx8CPP53h5ezWCbrdRkmNTZi13q5kvxj",
+          "toUserAccount": "ESnx6Bb25hhhj5GaK9JMSH2cSZNKR3ekgA1csAfJj91N",
+          "tokenAmount": 0.000799352,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5H5ms5hqopN9NL1TuoqBAiqnbXe2iPQPGy53AXevpbxS",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "A1Pff7cjbpvmHx8CPP53h5ezWCbrdRkmNTZi13q5kvxj",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.002312797,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FPS3Au7QxWQCG4YD8R2ixGZbEARdhsVxrLAakqNmJCxo",
+          "toTokenAccount": "8cxqYoYwZzrG24PZGTyCViS97KWa8ZiRkLD7WFozHKoa",
+          "fromUserAccount": "23A37aiq7Bkdvv8dNpkGYeRYxkBc7VFJhczrFNZQf3iR",
+          "toUserAccount": "A1Pff7cjbpvmHx8CPP53h5ezWCbrdRkmNTZi13q5kvxj",
+          "tokenAmount": 1184447.394038,
+          "mint": "BFpBCarmQiB4nkSmDrZ8fJBcyXzJmcaW95p2Y8Y5pump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "24vYXnjTTBphu8mGkcs3iyyceEoJKqRW7SfSjFtqLJACBqz3LrLU8MqLrGxrGuBweqQ81YXMnmQyk9xxU8ZT7sYi",
+    "block_slot": 392300193,
+    "block_time": 1767942973,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "3BMv3QbV1TduBm94rQfffiqhxSjgzX8HiEoqY2u5dw81",
+          "toTokenAccount": "A8nNSkPWcFBSicrLATxo8AU9hCf5tSb2gDNVhFWjqF68",
+          "fromUserAccount": "B4RE6J9pJUDxsqMfRtCehMXVsV8NtmKb7x7GrKuDuBYH",
+          "toUserAccount": "ANKcEHTXZrXSNGgTrLZ5H4RAi7NTFGkecgqNTrC1Nftj",
+          "tokenAmount": 0.069922123,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3BMv3QbV1TduBm94rQfffiqhxSjgzX8HiEoqY2u5dw81",
+          "toTokenAccount": "DWpvfqzGWuVy9jVSKSShdM2733nrEsnnhsUStYbkj6Nn",
+          "fromUserAccount": "B4RE6J9pJUDxsqMfRtCehMXVsV8NtmKb7x7GrKuDuBYH",
+          "toUserAccount": "JCRGumoE9Qi5BBgULTgdgTLjSgkCMSbF62ZZfGs84JeU",
+          "tokenAmount": 0.000650146,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3BMv3QbV1TduBm94rQfffiqhxSjgzX8HiEoqY2u5dw81",
+          "toTokenAccount": "3bhNNqzCVRAuRXuSq66Jqf9EuNDnkLpJSVu6CwrcMQZj",
+          "fromUserAccount": "B4RE6J9pJUDxsqMfRtCehMXVsV8NtmKb7x7GrKuDuBYH",
+          "toUserAccount": "7r2aWrjaszDJ6Xb2WJm8LQYf2p5EE3qP8sGe4tHcJXpW",
+          "tokenAmount": 0.000209725,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3BMv3QbV1TduBm94rQfffiqhxSjgzX8HiEoqY2u5dw81",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "B4RE6J9pJUDxsqMfRtCehMXVsV8NtmKb7x7GrKuDuBYH",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.000606804,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "Ek14NuJpnEss49xp9XhebMaNAitwTUVJnv9yTvwL6Fzo",
+          "toTokenAccount": "2nVC2tmHiGfTbNDM9wjZ27zS1ppLCKxwAC9jBTyLj5W2",
+          "fromUserAccount": "ANKcEHTXZrXSNGgTrLZ5H4RAi7NTFGkecgqNTrC1Nftj",
+          "toUserAccount": "B4RE6J9pJUDxsqMfRtCehMXVsV8NtmKb7x7GrKuDuBYH",
+          "tokenAmount": 599742.914244,
+          "mint": "CEiFnoc4ahx7eo8iY45QUbi7nfsmPMZNLPMeYiNGpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "3CokigfJm2w2MnegAbbpdfpWZqacmwSQQ7eZkQefYBnmsXZPgZVoeNUnWnHFWn3CMjNgBnhWrVgQeuaF56SpRUWQ",
+    "block_slot": 392300193,
+    "block_time": 1767942973,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "68Buts4LNJouRdCfFH65E1G4RwjEvqVLZUcvvaKtNc6T",
+          "toTokenAccount": "7jZ377xBcUMVDereLUE9X2p1MbTsPNt8xhAanzxsVb8b",
+          "fromUserAccount": "CbbgnZD1hvGkgFZ866YY93Ym9NHmULRHCgUxQfRXQErK",
+          "toUserAccount": "9m26RG8yJ8efG2cmd4WYimw6TyE78fFxtmJUUeWKwY8h",
+          "tokenAmount": 0.22906221,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "68Buts4LNJouRdCfFH65E1G4RwjEvqVLZUcvvaKtNc6T",
+          "toTokenAccount": "94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb",
+          "fromUserAccount": "CbbgnZD1hvGkgFZ866YY93Ym9NHmULRHCgUxQfRXQErK",
+          "toUserAccount": "62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV",
+          "tokenAmount": 0.000115923,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "68Buts4LNJouRdCfFH65E1G4RwjEvqVLZUcvvaKtNc6T",
+          "toTokenAccount": "96c4p6U5aFBVEnNJWys6Uh6CNCbZeKb8WRScga8HDsZj",
+          "fromUserAccount": "CbbgnZD1hvGkgFZ866YY93Ym9NHmULRHCgUxQfRXQErK",
+          "toUserAccount": "ABkRu6LxeoBXnPguz7nkV4drdL44JEWATp51bbxBkqLT",
+          "tokenAmount": 0.002202522,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "7jZ377xBcUMVDereLUE9X2p1MbTsPNt8xhAanzxsVb8b",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "9m26RG8yJ8efG2cmd4WYimw6TyE78fFxtmJUUeWKwY8h",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.001947028,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "4GRF2CZ3cDBkQ4DwYr5U9AqbngMTfDrXiTsHxCw9KFWQ",
+          "toTokenAccount": "k3acygqVkhNjpJMPFkNSVmUYTJ7WA4CSoWWxcqiPmTx",
+          "fromUserAccount": "9m26RG8yJ8efG2cmd4WYimw6TyE78fFxtmJUUeWKwY8h",
+          "toUserAccount": "CbbgnZD1hvGkgFZ866YY93Ym9NHmULRHCgUxQfRXQErK",
+          "tokenAmount": 300426.587956,
+          "mint": "2AbQmmgytwpzVw9a4sSk59VVuyog1P3pVB62GWJLpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "4kWaRe9GHYoS7iTjvK4ScVmD7TFCL9MHasd3p2drqoUYfbZ5PaXy6pedM66njYPsuEsdWfg1KXKJJiEVDdFXV5T",
+    "block_slot": 392300192,
+    "block_time": 1767942973,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "7AaaYnuGCze6HuPX5fzwTCfpVaV8WvGrZqVUMtSbdvt9",
+          "toTokenAccount": "Dgf9FaUtc2CwEUQ1M2DThnwVC1vuS2hWi2gH1FozMhrJ",
+          "fromUserAccount": "AE3bQhoNFKbaikDBopTcGNvXQWRqiYRsjHgPHYJ2Q8cA",
+          "toUserAccount": "HtUDrzAjt215Noq9KCshkhvDZw4X1Va9A3UimsbaYpnT",
+          "tokenAmount": 0.103662262,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "7AaaYnuGCze6HuPX5fzwTCfpVaV8WvGrZqVUMtSbdvt9",
+          "toTokenAccount": "94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb",
+          "fromUserAccount": "AE3bQhoNFKbaikDBopTcGNvXQWRqiYRsjHgPHYJ2Q8cA",
+          "toUserAccount": "62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV",
+          "tokenAmount": 5.1728e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "7AaaYnuGCze6HuPX5fzwTCfpVaV8WvGrZqVUMtSbdvt9",
+          "toTokenAccount": "EfnskBgxXUhRoCQwKB8Rt33orhYPAy2bkghzgk249vET",
+          "fromUserAccount": "AE3bQhoNFKbaikDBopTcGNvXQWRqiYRsjHgPHYJ2Q8cA",
+          "toUserAccount": "5wFFM3fyWwwke19e7zptLHhd241bBYxk989pdHVmHMAb",
+          "tokenAmount": 0.000775916,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "4C6vGCHLvsCRnkhE15hRAzwrfNeqH8PXBrDEmukjRcVn",
+          "toTokenAccount": "Fkcj2JAFyNYcVgYi6jyGuSCXokLTKd7RasYEhkAmbdAK",
+          "fromUserAccount": "AE3bQhoNFKbaikDBopTcGNvXQWRqiYRsjHgPHYJ2Q8cA",
+          "toUserAccount": "8psNvWTrdNTiVRNzAgsou9kETXNJm2SXZyaKuJraVRtf",
+          "tokenAmount": 29612.335254,
+          "mint": "7cVEY9YjLE4M1h4J8Z4HVKm8uZz71UbZN4FHGDB1pump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "4C6vGCHLvsCRnkhE15hRAzwrfNeqH8PXBrDEmukjRcVn",
+          "toTokenAccount": "9fYGyKCn65LfdgCXymnoExa8wApf5ffYWuBb9pemPD2J",
+          "fromUserAccount": "AE3bQhoNFKbaikDBopTcGNvXQWRqiYRsjHgPHYJ2Q8cA",
+          "toUserAccount": "7J3Ly3EcDzvaoCUVfmLV8sRqAjTpFxe8d9KK72hjVpex",
+          "tokenAmount": 3454191.81235,
+          "mint": "7cVEY9YjLE4M1h4J8Z4HVKm8uZz71UbZN4FHGDB1pump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "7SJNQYvELznuZTErFkiwhjDoYj9hWvupRtEpTG7FfZgw",
+          "toTokenAccount": "UXGXAtVzPC9nwfiUzQhz5QoHHccBk71JG91DMH3b9DZ",
+          "fromUserAccount": "HtUDrzAjt215Noq9KCshkhvDZw4X1Va9A3UimsbaYpnT",
+          "toUserAccount": "AE3bQhoNFKbaikDBopTcGNvXQWRqiYRsjHgPHYJ2Q8cA",
+          "tokenAmount": 22306.080497,
+          "mint": "2ho2rMakwEpFf8FsCfw9cMVUzSSjCoZ7RcctmqYFpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "581gZTiiv7V7sskCYgCwCuaxRXbPCxBvHmtguMFYR2R4xm4pr5CYvAiSFfqFMYkr4L8b7UikLB4ciypNDJmoAXyR",
+    "block_slot": 392300190,
+    "block_time": 1767942972,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "Db9ibDkAEKF8dMnEpijpvjdkyQzJ8ajTawdTHgpeFZoi",
+          "toTokenAccount": "2ffT1HpYRP5qsS3uK6kSonLpCCZMmfGv3qimL1xfswpy",
+          "fromUserAccount": "HwkPeeSSgWwezw6jgBvs4gY6YxWmenbqZuN5QXVJA95g",
+          "toUserAccount": "gD4rzjhgoLiAsguZHDi4nsn7XQEQA1TqcEAwbDvD2CK",
+          "tokenAmount": 0.061285093,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "Db9ibDkAEKF8dMnEpijpvjdkyQzJ8ajTawdTHgpeFZoi",
+          "toTokenAccount": "X5QPJcpph4mBAJDzc4hRziFftSbcygV59kRb2Fu6Je1",
+          "fromUserAccount": "HwkPeeSSgWwezw6jgBvs4gY6YxWmenbqZuN5QXVJA95g",
+          "toUserAccount": "7hTckgnGnLQR6sdH7YkqFTAA7VwTfYFaZ6EhEsU3saCX",
+          "tokenAmount": 3.0937e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "Db9ibDkAEKF8dMnEpijpvjdkyQzJ8ajTawdTHgpeFZoi",
+          "toTokenAccount": "DBJvUMPyKd3hNqEkxEAUMPNwKtWwvfinCE9gAWBi9Pey",
+          "fromUserAccount": "HwkPeeSSgWwezw6jgBvs4gY6YxWmenbqZuN5QXVJA95g",
+          "toUserAccount": "Fz2T86RKFbygxMhnQ9kCVbk1bhUCu41mbpAY7p5H9Fpg",
+          "tokenAmount": 0.000433111,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2ffT1HpYRP5qsS3uK6kSonLpCCZMmfGv3qimL1xfswpy",
+          "toTokenAccount": "5idW2FsaCEdEQnZ79svCtHNBkCsfGpgEuFGanep3kQoG",
+          "fromUserAccount": "gD4rzjhgoLiAsguZHDi4nsn7XQEQA1TqcEAwbDvD2CK",
+          "toUserAccount": "2RhB2HDe3fFwcmZLYNuKfQhVioe4nkhmH2KZyuesqHDQ",
+          "tokenAmount": 0.060540592,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2ffT1HpYRP5qsS3uK6kSonLpCCZMmfGv3qimL1xfswpy",
+          "toTokenAccount": "7xQYoUjUJF1Kg6WVczoTAkaNhn5syQYcbvjmFrhjWpx",
+          "fromUserAccount": "gD4rzjhgoLiAsguZHDi4nsn7XQEQA1TqcEAwbDvD2CK",
+          "toUserAccount": "FWsW1xNtWscwNmKv6wVsU1iTzRN6wmmk3MjxRP5tT7hz",
+          "tokenAmount": 0.000562915,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2ffT1HpYRP5qsS3uK6kSonLpCCZMmfGv3qimL1xfswpy",
+          "toTokenAccount": "52BUhp6xJ5J3WuMJGbsCBBtSm8t71LHYd6jZDE3pC1jB",
+          "fromUserAccount": "gD4rzjhgoLiAsguZHDi4nsn7XQEQA1TqcEAwbDvD2CK",
+          "toUserAccount": "AHjKnf3Ht45asEQoPonYSQNuyJazMzTQdxjPVhUWXtv5",
+          "tokenAmount": 0.000181586,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CQSegvprfsGHL6kttdceugDMsXMNyWzLjhzxZ3qYLc9J",
+          "toTokenAccount": "3T3LstWMsZKAzL5uiwq2zqa8edHLsNhFpn6fBg9fZCXh",
+          "fromUserAccount": "gD4rzjhgoLiAsguZHDi4nsn7XQEQA1TqcEAwbDvD2CK",
+          "toUserAccount": "8psNvWTrdNTiVRNzAgsou9kETXNJm2SXZyaKuJraVRtf",
+          "tokenAmount": 42.5,
+          "mint": "6GihmsqNR21azuRuHgbjQxcDoxX7xgqqs58PQkyxpump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CQSegvprfsGHL6kttdceugDMsXMNyWzLjhzxZ3qYLc9J",
+          "toTokenAccount": "Hvsq8vRfyFmEr8y5p8neSSR33yYKwSkr1svZdxKsmG43",
+          "fromUserAccount": "gD4rzjhgoLiAsguZHDi4nsn7XQEQA1TqcEAwbDvD2CK",
+          "toUserAccount": "HwkPeeSSgWwezw6jgBvs4gY6YxWmenbqZuN5QXVJA95g",
+          "tokenAmount": 4957.5,
+          "mint": "6GihmsqNR21azuRuHgbjQxcDoxX7xgqqs58PQkyxpump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "6cGYAZJ6w7KnBJRjqw63RVUEjqCqTaqKbsZerJzLnabf",
+          "toTokenAccount": "5kV8xwX8jT2BYD4LDwbWXQsWQrhgxdgoHkrJzLTFxr3H",
+          "fromUserAccount": "2RhB2HDe3fFwcmZLYNuKfQhVioe4nkhmH2KZyuesqHDQ",
+          "toUserAccount": "gD4rzjhgoLiAsguZHDi4nsn7XQEQA1TqcEAwbDvD2CK",
+          "tokenAmount": 213704.884553,
+          "mint": "3wASZZHadqJDw2decXbBoM1qLMKmh3pCBXk9nArwpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "54wBzSeTcecNAqL6e3YYPgwPTV4JftccQGFhp71Z2Ci7mcVR7Tnp2mV9azYHfK7Eg7yqEfvHgpsSW6bAA7W5sAod",
+    "block_slot": 392300190,
+    "block_time": 1767942972,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "A7MRmGiWV16k2ufPgxNqmEcLGyYcZG4H2GFG6XaFJeBw",
+          "toTokenAccount": "BRkbiMyNcBKRdXFjRQWTnkfoTP3ApnRiTcV87aGwQMFW",
+          "fromUserAccount": "EvkWXKTmTkr2Aq7Gbik7qsm1bHN1xPaxxrC4SZ7wVpRS",
+          "toUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "tokenAmount": 0.767218317,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "A7MRmGiWV16k2ufPgxNqmEcLGyYcZG4H2GFG6XaFJeBw",
+          "toTokenAccount": "BWXT6RUhit9FfJQM3pBmqeFLPYmuxgmyhMGC5sGr8RbA",
+          "fromUserAccount": "EvkWXKTmTkr2Aq7Gbik7qsm1bHN1xPaxxrC4SZ7wVpRS",
+          "toUserAccount": "G5UZAVbAf46s7cKWoyKu8kYTip9DGTpbLZ2qa9Aq69dP",
+          "tokenAmount": 0.007225449,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "A7MRmGiWV16k2ufPgxNqmEcLGyYcZG4H2GFG6XaFJeBw",
+          "toTokenAccount": "7GWCufbc66Qs9Z7qJxCvDLgMi86DdUmVbab3eZThP6fb",
+          "fromUserAccount": "EvkWXKTmTkr2Aq7Gbik7qsm1bHN1xPaxxrC4SZ7wVpRS",
+          "toUserAccount": "Ho6qQgaPDAt7hJStnLU2QBG275MAPDCB2ibPd9kyfFzq",
+          "tokenAmount": 0.00233079,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BRkbiMyNcBKRdXFjRQWTnkfoTP3ApnRiTcV87aGwQMFW",
+          "toTokenAccount": "55UAoZnJwrtJntdW6nPS3LhYx5ywhYDfwpRq1z2gjfMC",
+          "fromUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "toUserAccount": "3mq1eCNSX7e1LthaPRsfcA5e5pcfv6mCcZTBREvoPsbJ",
+          "tokenAmount": 0.757898034,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BRkbiMyNcBKRdXFjRQWTnkfoTP3ApnRiTcV87aGwQMFW",
+          "toTokenAccount": "X5QPJcpph4mBAJDzc4hRziFftSbcygV59kRb2Fu6Je1",
+          "fromUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "toUserAccount": "7hTckgnGnLQR6sdH7YkqFTAA7VwTfYFaZ6EhEsU3saCX",
+          "tokenAmount": 0.007047043,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BRkbiMyNcBKRdXFjRQWTnkfoTP3ApnRiTcV87aGwQMFW",
+          "toTokenAccount": "DzFtuEuXXWGZw3KtLsktnDLgUKhnNdUAPLvnpZQWNmQ7",
+          "fromUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "toUserAccount": "5dqxc9ZMctP4URAWNaPtUN5Gqw9S2ijzDjohY9SHcPgY",
+          "tokenAmount": 0.00227324,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5dGDW5WMTrnfyEHzqk12zqk3WE5junrTnNK7oc4dKW7Y",
+          "toTokenAccount": "YJXVh2aZPXd3w77iyTCUFum9huGcZj2LNxQtWCkZgHm",
+          "fromUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "toUserAccount": "8psNvWTrdNTiVRNzAgsou9kETXNJm2SXZyaKuJraVRtf",
+          "tokenAmount": 40387.615557,
+          "mint": "FtqeiRamVQqrruRx5jSQU9ATH3wtCHaBh1KF7SR2pump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5dGDW5WMTrnfyEHzqk12zqk3WE5junrTnNK7oc4dKW7Y",
+          "toTokenAccount": "4A59ewLxBuLBsQKYKKr1pyWPz3cSaJN3JqX2KHhPzzX8",
+          "fromUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "toUserAccount": "EvkWXKTmTkr2Aq7Gbik7qsm1bHN1xPaxxrC4SZ7wVpRS",
+          "tokenAmount": 4711096.567705,
+          "mint": "FtqeiRamVQqrruRx5jSQU9ATH3wtCHaBh1KF7SR2pump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "H2C3Ugnj2wMZr3Vb82Ax7QNrdCJRKygaLpHRyivDCjL9",
+          "toTokenAccount": "8HbiV6LJQS5prUWeUkavq2NAUWhyRFv7Emu4gmSCWKQZ",
+          "fromUserAccount": "3mq1eCNSX7e1LthaPRsfcA5e5pcfv6mCcZTBREvoPsbJ",
+          "toUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "tokenAmount": 8464557.043892,
+          "mint": "4jP4wWtHN2vWAXYRwCoUD5xgVzzepanGJ9DhUaj2pump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "2kv5gHw7u6FMxf663RNyPETq3qXzi7YHa9zcmKKdD2d4NJfQsLX6BPUdg5nYffTdjjTkZcpyrPUA7KVaipjpXxAe",
+    "block_slot": 392300190,
+    "block_time": 1767942972,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "4LXRY6uNDLJbRSK4MmHVLUBwoSYNUJV3Jt1SeBhgd7L4",
+          "toTokenAccount": "3rgs87aTHbczXumQJ4v9uPRezqBJ6tY1jZy4NTRrFGkf",
+          "fromUserAccount": "6fP6TmRQAxMguqKH6kL7i11omHPdYJCW6r3ERdhsnGH9",
+          "toUserAccount": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+          "tokenAmount": 5194.572582,
+          "mint": "HswqmpB6is4ih9pPLNwYCFnG7YbAdwKvdZXW18aKpump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5eQ1p29KcXyftUPwKjBiDa85NsD2VjJsoZwzpVgQQDx2",
+          "toTokenAccount": "GXpKVt9bT7DFBv6beMvkqnYhkJEmrhgKJRv2iY6UjqVd",
+          "fromUserAccount": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+          "toUserAccount": "6fP6TmRQAxMguqKH6kL7i11omHPdYJCW6r3ERdhsnGH9",
+          "tokenAmount": 0.000761533,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "GXpKVt9bT7DFBv6beMvkqnYhkJEmrhgKJRv2iY6UjqVd",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "6fP6TmRQAxMguqKH6kL7i11omHPdYJCW6r3ERdhsnGH9",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 6.473e-06,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "5csSmMawkzwp9mBkm6NNXA8bbKY2fcouEbTSp5xtmGWCvXPDeozJ36Dt4wcPJwEvqbRXL2KWNt9tuv6cJQErZ27U",
+    "block_slot": 392300189,
+    "block_time": 1767942972,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "7mov5YiNtMs1rCjc8q3DTzMjdABxc37Lz3wpMyYxhQyC",
+          "toTokenAccount": "AehjbNUvjuUY6Fe22WwdpAnR9jtqBZJZyYmXBBVWDPGE",
+          "fromUserAccount": "AJEcdiMUBQv4QU8EKyC8WzQ6qkQzgq6QpfLAwr7GmMCB",
+          "toUserAccount": "74cUEdwYtpT9iE6m5fYqyDbveRrimHLwesdbk9JBbigv",
+          "tokenAmount": 0.700975947,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "7mov5YiNtMs1rCjc8q3DTzMjdABxc37Lz3wpMyYxhQyC",
+          "toTokenAccount": "X5QPJcpph4mBAJDzc4hRziFftSbcygV59kRb2Fu6Je1",
+          "fromUserAccount": "AJEcdiMUBQv4QU8EKyC8WzQ6qkQzgq6QpfLAwr7GmMCB",
+          "toUserAccount": "7hTckgnGnLQR6sdH7YkqFTAA7VwTfYFaZ6EhEsU3saCX",
+          "tokenAmount": 0.000349789,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "7mov5YiNtMs1rCjc8q3DTzMjdABxc37Lz3wpMyYxhQyC",
+          "toTokenAccount": "BmThCLFWM96grH2iwWe3VGmZ35GNGJqjMdjyz5eRX1SX",
+          "fromUserAccount": "AJEcdiMUBQv4QU8EKyC8WzQ6qkQzgq6QpfLAwr7GmMCB",
+          "toUserAccount": "Hi9FyuV76LvTEQquJxsD72iPGth2Syu676pNXAhGei2d",
+          "tokenAmount": 0.006296192,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "7mov5YiNtMs1rCjc8q3DTzMjdABxc37Lz3wpMyYxhQyC",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "AJEcdiMUBQv4QU8EKyC8WzQ6qkQzgq6QpfLAwr7GmMCB",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.00606635,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "37JhxRAegygz8yUwiSj55ugNDyGBJRt7BQXQ1iNF4DWL",
+          "toTokenAccount": "J5EjDoCqSeSXJmhdxLX3BiRpkfHHFtYmDwv9DcwXVh1H",
+          "fromUserAccount": "74cUEdwYtpT9iE6m5fYqyDbveRrimHLwesdbk9JBbigv",
+          "toUserAccount": "AJEcdiMUBQv4QU8EKyC8WzQ6qkQzgq6QpfLAwr7GmMCB",
+          "tokenAmount": 450938.761062,
+          "mint": "GpWCXPikehmx21cb2JZKQWewd63gbrMs8HfavVufpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "2UHaTwbvNjJ2rFB1VQmBuwWv4RSGvuaoeJuww721TJF6DKuxyaXAJ4WtVD71nj1Md69JnNiHohytgwYnJkCEQhyo",
+    "block_slot": 392300188,
+    "block_time": 1767942971,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "AZnhnyoAev8W7A9mcbU64f2H8GUen22DLd398kNGae52",
+          "toTokenAccount": "Ec149P654YRw3uWNZLg4STQaAqvfQJnaZaxS32R3wEuR",
+          "fromUserAccount": "DmrqPNEjZ7WcSHewV2HXxsKLHuHKsRgoteaFgNNcNz7g",
+          "toUserAccount": "9DkjWGHyCayN1H1nkvANTG6968FBJ7cwL4nbX3NzXx51",
+          "tokenAmount": 3098.181,
+          "mint": "CwMuoD9nK6LEN6BwzLVZEmbuJXm8rXfzRGaM1YGim14h",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "7CdJLtQocnY7rjn6pqCJonowuEagSVpaA4wvJ6Ru6JFM",
+          "toTokenAccount": "Cxo8uB9xdiGMfZ7Qjmydi1bMVFk1sTFyY1ZfbfsK356W",
+          "fromUserAccount": "9DkjWGHyCayN1H1nkvANTG6968FBJ7cwL4nbX3NzXx51",
+          "toUserAccount": "DmrqPNEjZ7WcSHewV2HXxsKLHuHKsRgoteaFgNNcNz7g",
+          "tokenAmount": 0.020735141,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "Cxo8uB9xdiGMfZ7Qjmydi1bMVFk1sTFyY1ZfbfsK356W",
+          "toTokenAccount": "595S5w2SypCZ9c7ELkzp1LUQXG2sMg64d6xLLPrSiyJc",
+          "fromUserAccount": "DmrqPNEjZ7WcSHewV2HXxsKLHuHKsRgoteaFgNNcNz7g",
+          "toUserAccount": "2rbMgYvzAb3xDk6vXrzKkY3VwsmyDZsJTkvB3JJYsRzA",
+          "tokenAmount": 0.000167954,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "4ps8axvwNuSyUufFRkKmM1qfkv5dXhm3RKuPu1hpbpVFUTc6kTmCp7REmkLa9mtbdxi1D5Vt8ufbLVaxAAZii5b6",
+    "block_slot": 392300188,
+    "block_time": 1767942971,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "Ed6y82m3eTeDmjpMtRNmnMyBjQZuAkpucguEidEcvitH",
+          "toTokenAccount": "6r8cvCfVotnUNRSkw7QoJKk338Ezbw3XbGZ4qMQFCwy2",
+          "fromUserAccount": "FAZbmP4a4gntGtoHC97ZwDV3SPheRR45t2q3ej28so8j",
+          "toUserAccount": "Bywb9jizKvxukmxYuoXyU8MzjhfKESZ4tDksjMU29gcS",
+          "tokenAmount": 4.958978,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "AMUiXrcJoUeRY7a2jNTb2nu4Ji27AS3z7ZsErQsmEN9x",
+          "toTokenAccount": "CYwGDW1s8nRsB9ENBzgufQ9gCeqYBEgApZvhTyab1iMP",
+          "fromUserAccount": "Bywb9jizKvxukmxYuoXyU8MzjhfKESZ4tDksjMU29gcS",
+          "toUserAccount": "FAZbmP4a4gntGtoHC97ZwDV3SPheRR45t2q3ej28so8j",
+          "tokenAmount": 43.597637,
+          "mint": "a3W4qutoEJA4232T2gwZUfgYJTetr96pU4SJMwppump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "Ed6y82m3eTeDmjpMtRNmnMyBjQZuAkpucguEidEcvitH",
+          "toTokenAccount": "J8gt2jBUi6DW6gdUdm1fkP9oGN4xXwPdQbCZkkN78R3Z",
+          "fromUserAccount": "FAZbmP4a4gntGtoHC97ZwDV3SPheRR45t2q3ej28so8j",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.042512,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "5p9fYrCiUrum3a8VFZX1RKzHif6uzxSf16cmmfQzhBjMo3tzY76gYyctU6FqRDYVut3f5yCifp1CXAdARHpEB1Ui",
+    "block_slot": 392300186,
+    "block_time": 1767942971,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "FwXGSERjJvZk9gEvyaqsHtekEtBvhSoM7tfhMkjBqnfc",
+          "toTokenAccount": "5EfJ6Geg1ZLoqxtZoGr4W25jdkGCjaFma1pXqS5fP8NR",
+          "fromUserAccount": "FpuRAi5q1VRVs2xPSWvAXoySx9oN2ZcSwsJMtAWo6dhE",
+          "toUserAccount": "13EWL6AhXsjr7V7cuDq1kduRs5NXVDLwiBuUyD4xc3po",
+          "tokenAmount": 4438712.057223,
+          "mint": "2BTgyeau8AFVL6bJvVksLLAaoVUyPLEo4osYNKQMjxVP",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3ePLanJMSgZyoN8etiL7RZky5Gq85Xmq9NtxXo7EXwFH",
+          "toTokenAccount": "8f6W1sQK44cMyWu5JFMEUZ6e41sP34j9X7AeHo126ZaA",
+          "fromUserAccount": "13EWL6AhXsjr7V7cuDq1kduRs5NXVDLwiBuUyD4xc3po",
+          "toUserAccount": "FpuRAi5q1VRVs2xPSWvAXoySx9oN2ZcSwsJMtAWo6dhE",
+          "tokenAmount": 1.260085452,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3ePLanJMSgZyoN8etiL7RZky5Gq85Xmq9NtxXo7EXwFH",
+          "toTokenAccount": "DWpvfqzGWuVy9jVSKSShdM2733nrEsnnhsUStYbkj6Nn",
+          "fromUserAccount": "13EWL6AhXsjr7V7cuDq1kduRs5NXVDLwiBuUyD4xc3po",
+          "toUserAccount": "JCRGumoE9Qi5BBgULTgdgTLjSgkCMSbF62ZZfGs84JeU",
+          "tokenAmount": 0.011716452,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3ePLanJMSgZyoN8etiL7RZky5Gq85Xmq9NtxXo7EXwFH",
+          "toTokenAccount": "3KMaqHZzg157PkpVbmapHxAyf6mr4B8WxtkwyRuidxHb",
+          "fromUserAccount": "13EWL6AhXsjr7V7cuDq1kduRs5NXVDLwiBuUyD4xc3po",
+          "toUserAccount": "gyXmVi3d2qXxxZPstuhBS7sEFuB8TBe5QzH58S7gMfx",
+          "tokenAmount": 0.003779501,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3ePLanJMSgZyoN8etiL7RZky5Gq85Xmq9NtxXo7EXwFH",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "13EWL6AhXsjr7V7cuDq1kduRs5NXVDLwiBuUyD4xc3po",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.010935392,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "22h4TC2qCzqLeyetCRrucSek5WH4YiZqRfV6NkruH4h6RkWWXKeEvRmRRyP4is7iB93QtEkJ3kEcNmriM9GdfurK",
+    "block_slot": 392300185,
+    "block_time": 1767942970,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "8Y1MgAD5xpZDhFJzunUdoyDY7zXT8jMSfscYXoFihmh7",
+          "toTokenAccount": "YbCtZ1d2VqJmeS6AnGRsowMrdJphjSgFR5QVpNSqxbV",
+          "fromUserAccount": "2yf38DKf3j2NKkaYpokNKv7tGmX5G2gedjJvWKVLkFYx",
+          "toUserAccount": "Cr1jCJYA6wSJ73SAbd5aK4LX16yAAyRuFmK2dhJ9LyrF",
+          "tokenAmount": 9031.324313,
+          "mint": "ACHEprPEhxibTS5URUtTb44NFA14wpb7vHoTu3rZpump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BtRLUpGLoHB4t48fTLjDnsohJMD3JWiTfVxdTCzLYyfN",
+          "toTokenAccount": "3Zm19rMmKcbKxwWbtxb3A3xjoCpwoD58za8AsEfn4eWb",
+          "fromUserAccount": "Cr1jCJYA6wSJ73SAbd5aK4LX16yAAyRuFmK2dhJ9LyrF",
+          "toUserAccount": "2yf38DKf3j2NKkaYpokNKv7tGmX5G2gedjJvWKVLkFYx",
+          "tokenAmount": 0.011765896,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BtRLUpGLoHB4t48fTLjDnsohJMD3JWiTfVxdTCzLYyfN",
+          "toTokenAccount": "7xQYoUjUJF1Kg6WVczoTAkaNhn5syQYcbvjmFrhjWpx",
+          "fromUserAccount": "Cr1jCJYA6wSJ73SAbd5aK4LX16yAAyRuFmK2dhJ9LyrF",
+          "toUserAccount": "FWsW1xNtWscwNmKv6wVsU1iTzRN6wmmk3MjxRP5tT7hz",
+          "tokenAmount": 5.872e-06,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BtRLUpGLoHB4t48fTLjDnsohJMD3JWiTfVxdTCzLYyfN",
+          "toTokenAccount": "DGGpxm8H8Bj5Dc1wZaLzPPVuiXsJTHoxvP5iR8tje1BK",
+          "fromUserAccount": "Cr1jCJYA6wSJ73SAbd5aK4LX16yAAyRuFmK2dhJ9LyrF",
+          "toUserAccount": "CUdmpcWRWqE6Q3wkGeFXrQ4WyukBzhiuVeDTNV5sMknJ",
+          "tokenAmount": 0.000111553,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CVG6wRVC1goapXKHrfVf5jPYctXpE4LLSreVh1R92uqo",
+          "toTokenAccount": "GavF3rbCzj5CRUitabFxz8B15du3NxXYjsfRH2rGknGw",
+          "fromUserAccount": "Cr1jCJYA6wSJ73SAbd5aK4LX16yAAyRuFmK2dhJ9LyrF",
+          "toUserAccount": "8psNvWTrdNTiVRNzAgsou9kETXNJm2SXZyaKuJraVRtf",
+          "tokenAmount": 0.012128,
+          "mint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CVG6wRVC1goapXKHrfVf5jPYctXpE4LLSreVh1R92uqo",
+          "toTokenAccount": "EtjUEdstCK856io1ZNoGs9aamsjBJaSm6rmNYz5uTKqv",
+          "fromUserAccount": "Cr1jCJYA6wSJ73SAbd5aK4LX16yAAyRuFmK2dhJ9LyrF",
+          "toUserAccount": "61R1ndXxvsWXXkWSyNkCxnzwd3zUNB8Q2ibmkiLPC8ht",
+          "tokenAmount": 1.414746,
+          "mint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "JBGAcAQP59HrqWsvUF9pXyQjfSpL7ivH3uEt95t7KahY",
+          "toTokenAccount": "C6ZBYYqg6sQsvvucQ4XG4RLhER3EGECS27YL84msKdcF",
+          "fromUserAccount": "61R1ndXxvsWXXkWSyNkCxnzwd3zUNB8Q2ibmkiLPC8ht",
+          "toUserAccount": "Cr1jCJYA6wSJ73SAbd5aK4LX16yAAyRuFmK2dhJ9LyrF",
+          "tokenAmount": 1.665025,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "C6ZBYYqg6sQsvvucQ4XG4RLhER3EGECS27YL84msKdcF",
+          "toTokenAccount": "GhFfLFSprPpfoRaWakPMmJTMJBHuz6C694jYwxy2dAic",
+          "fromUserAccount": "Cr1jCJYA6wSJ73SAbd5aK4LX16yAAyRuFmK2dhJ9LyrF",
+          "toUserAccount": "65ZHSArs5XxPseKQbB1B4r16vDxMWnCxHMzogDAqiDUc",
+          "tokenAmount": 1.665025,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CRo8DBwrmd97DJfAnvCv96tZPL5Mktf2NZy2ZnhDer1A",
+          "toTokenAccount": "BtRLUpGLoHB4t48fTLjDnsohJMD3JWiTfVxdTCzLYyfN",
+          "fromUserAccount": "65ZHSArs5XxPseKQbB1B4r16vDxMWnCxHMzogDAqiDUc",
+          "toUserAccount": "Cr1jCJYA6wSJ73SAbd5aK4LX16yAAyRuFmK2dhJ9LyrF",
+          "tokenAmount": 0.011883321,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "45Db83A1yHK7GU7Fkj7GUvmxHHBAUhaYYwrxuosZK3DtCTnVW7HQg3e9KrVZ7rAXmF8Uf7ycxMJmD3ZUL93epakz",
+    "block_slot": 392300184,
+    "block_time": 1767942970,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "2BHTqFkkzb7yVcci4GkQgrZzXt3mnXVEkH9NAiy4zAgA",
+          "toTokenAccount": "52y3p6emGsWmjxRYkmDGyGADAVEwWbfK1RfnySbYQw7h",
+          "fromUserAccount": "DuCtzPBagBE1foJXegkbTMv9fwFgKyHBHDCbk2Q7K1gi",
+          "toUserAccount": "E2DxXLp7GmkyPQ95KU5o42JnEuXmkpHHoFsCipjTZCZk",
+          "tokenAmount": 0.234765104,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2BHTqFkkzb7yVcci4GkQgrZzXt3mnXVEkH9NAiy4zAgA",
+          "toTokenAccount": "94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb",
+          "fromUserAccount": "DuCtzPBagBE1foJXegkbTMv9fwFgKyHBHDCbk2Q7K1gi",
+          "toUserAccount": "62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV",
+          "tokenAmount": 0.000118629,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2BHTqFkkzb7yVcci4GkQgrZzXt3mnXVEkH9NAiy4zAgA",
+          "toTokenAccount": "H7LQRheK13ochrVy5QqBi5m6SfVAHCCqs6mY6tJ9H8s8",
+          "fromUserAccount": "DuCtzPBagBE1foJXegkbTMv9fwFgKyHBHDCbk2Q7K1gi",
+          "toUserAccount": "GMybV8Q4285pf1LVQVNURNiVhvUWyTm71RiHuf8x1p2D",
+          "tokenAmount": 0.001898051,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "52y3p6emGsWmjxRYkmDGyGADAVEwWbfK1RfnySbYQw7h",
+          "toTokenAccount": "595S5w2SypCZ9c7ELkzp1LUQXG2sMg64d6xLLPrSiyJc",
+          "fromUserAccount": "E2DxXLp7GmkyPQ95KU5o42JnEuXmkpHHoFsCipjTZCZk",
+          "toUserAccount": "2rbMgYvzAb3xDk6vXrzKkY3VwsmyDZsJTkvB3JJYsRzA",
+          "tokenAmount": 0.00187812,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "52y3p6emGsWmjxRYkmDGyGADAVEwWbfK1RfnySbYQw7h",
+          "toTokenAccount": "595S5w2SypCZ9c7ELkzp1LUQXG2sMg64d6xLLPrSiyJc",
+          "fromUserAccount": "E2DxXLp7GmkyPQ95KU5o42JnEuXmkpHHoFsCipjTZCZk",
+          "toUserAccount": "2rbMgYvzAb3xDk6vXrzKkY3VwsmyDZsJTkvB3JJYsRzA",
+          "tokenAmount": 0.00177009,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2vGF7Rt6F3SJ4e8V8T9EqJmW4bFjpwGj9vbA53ej2k1G",
+          "toTokenAccount": "FPWejxYHEoKkQjA5Zi21jvYXjtJ7r4bz76wFdatuZcwJ",
+          "fromUserAccount": "E2DxXLp7GmkyPQ95KU5o42JnEuXmkpHHoFsCipjTZCZk",
+          "toUserAccount": "DuCtzPBagBE1foJXegkbTMv9fwFgKyHBHDCbk2Q7K1gi",
+          "tokenAmount": 61594.394625,
+          "mint": "3Ps2gVJpDyEM2NDPgQNWreVUUn45i3HiRFb9rjdXpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "Y9MUdecjQrxBgKUTk7mobnJta4VR4n57zJVqCfwvm9ZvZPjxnS6PrZiQZCrrXkw8rYMhAfZZZJqi7AmvLG9kWKC",
+    "block_slot": 392300184,
+    "block_time": 1767942970,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "99E35FWcX3JStDJF7wmg3e8QpySLRXyYLvVcNxMjcQya",
+          "toTokenAccount": "KVw7HHE5ZT8kVUVs8SfskU2UubxSZCz4vePBv3bJqJv",
+          "fromUserAccount": "3qox2wBocjtu2cLtkE6D547d2wzUw95VtQXb4PhMDYe9",
+          "toUserAccount": "BN4Pgp7mR65w2DPj73uzeWZBVESBMst7bRm1kcUiC38S",
+          "tokenAmount": 39502574.991956,
+          "mint": "AUZc9RL6EumyzHKddpqeD1u1PKKtLWYCFffPKYeJpump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5akpXdQdSWpip5tzpfLgvkhW8aLTSx7GQ7E8VJozM3yi",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "3qox2wBocjtu2cLtkE6D547d2wzUw95VtQXb4PhMDYe9",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.017998167,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "28iUTfdr6C5CVsbhyUNDysYUutPB8EPwY6F2WFj6FHUMMYeuKtTCr8K5WFLq2dVDzLD14m7exUARwEqAhMRAqLB7",
+    "block_slot": 392300183,
+    "block_time": 1767942970,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "4bpZEtVUCzi6cLSyvkkCct6SSzQSs8orNS2fVHpWupDJ",
+          "toTokenAccount": "J8gt2jBUi6DW6gdUdm1fkP9oGN4xXwPdQbCZkkN78R3Z",
+          "fromUserAccount": "7YsR49YXJ4Z3RkRYBLFLMKSVdxYWXDkZS86WCFeZ5PJw",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.0425,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "C3FzbX9n1YD2dow2dCmEv5uNyyf22Gb3TLAEqGBhw5fY",
+          "toTokenAccount": "FcAmy5vXBwYHztge9ZEZC8ZxJ69vu76jEy2DW4CyJnXA",
+          "fromUserAccount": "FksffEqnBRixYGR791Qw2MgdU7zNCpHVFYBL4Fa4qVuH",
+          "toUserAccount": "7YsR49YXJ4Z3RkRYBLFLMKSVdxYWXDkZS86WCFeZ5PJw",
+          "tokenAmount": 0.035384674,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "4bpZEtVUCzi6cLSyvkkCct6SSzQSs8orNS2fVHpWupDJ",
+          "toTokenAccount": "3RWFAQBRkNGq7CMGcTLK3kXDgFTe9jgMeFYqk8nHwcWh",
+          "fromUserAccount": "7YsR49YXJ4Z3RkRYBLFLMKSVdxYWXDkZS86WCFeZ5PJw",
+          "toUserAccount": "FksffEqnBRixYGR791Qw2MgdU7zNCpHVFYBL4Fa4qVuH",
+          "tokenAmount": 4.9575,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FcAmy5vXBwYHztge9ZEZC8ZxJ69vu76jEy2DW4CyJnXA",
+          "toTokenAccount": "AUT9j2RLeymZjJpgeZUTVYCWLtecspSpcxP9VswFxWf",
+          "fromUserAccount": "7YsR49YXJ4Z3RkRYBLFLMKSVdxYWXDkZS86WCFeZ5PJw",
+          "toUserAccount": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+          "tokenAmount": 0.035384674,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "7bL3qpKUkmRFj5XqEQL13PsvmTzGL6UqBtVcF5u7Jmdq",
+          "toTokenAccount": "7MDWGcwFJJ39NHJqTz6LND7wgVn97awoZD22ukmfVK15",
+          "fromUserAccount": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+          "toUserAccount": "7YsR49YXJ4Z3RkRYBLFLMKSVdxYWXDkZS86WCFeZ5PJw",
+          "tokenAmount": 20555.874723,
+          "mint": "EqeEBGHQhQy6SqeaJcnqAsNs3qaG19sdF89Xsarpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "3e4G6wkwxUGtGVkFnbRo2M2r6RV1ZMiwoNpVgCMB6wdZ6pZk39iRvHYa5qt9aVQiJvLYfCZD11zXShtdczpgvg8S",
+    "block_slot": 392300182,
+    "block_time": 1767942969,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "3fUufQHFU4SbMxJSvHiHGvygbmQsaUe6CG1D7v3Q8Uw3",
+          "toTokenAccount": "55Pu93FDfQ98rXYLSXodUCGKtxFBrp5f7SEWuauKoMim",
+          "fromUserAccount": "Bqs7Y5mLnXNCU35BnGKrvFfaX5p3tqeFGyR3SzUAX5hp",
+          "toUserAccount": "LeB7w1R5v88TTgt6XSTrgMdUQ9fi34whujyqBhymoP1",
+          "tokenAmount": 1.469451421,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3fUufQHFU4SbMxJSvHiHGvygbmQsaUe6CG1D7v3Q8Uw3",
+          "toTokenAccount": "94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb",
+          "fromUserAccount": "Bqs7Y5mLnXNCU35BnGKrvFfaX5p3tqeFGyR3SzUAX5hp",
+          "toUserAccount": "62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV",
+          "tokenAmount": 0.00073326,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3fUufQHFU4SbMxJSvHiHGvygbmQsaUe6CG1D7v3Q8Uw3",
+          "toTokenAccount": "7uL6q9tab8evz35aKuiCMpq1MGfJG7QxMsVZ7KcJMfd2",
+          "fromUserAccount": "Bqs7Y5mLnXNCU35BnGKrvFfaX5p3tqeFGyR3SzUAX5hp",
+          "toUserAccount": "CnfVRCjAmUGgDZqBipGWRbWKu1gRhi4YDVttj2uZzkdo",
+          "tokenAmount": 0.004399556,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3fUufQHFU4SbMxJSvHiHGvygbmQsaUe6CG1D7v3Q8Uw3",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "Bqs7Y5mLnXNCU35BnGKrvFfaX5p3tqeFGyR3SzUAX5hp",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.012641418,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "8dzSRpWTpugxJ3cTEVJ9eemtbR5eGns9wrtCED5my2Yv",
+          "toTokenAccount": "Ch23J5yAmBivSNiN8ixdfidWdPrMZwuQiViVueAmWDZ7",
+          "fromUserAccount": "LeB7w1R5v88TTgt6XSTrgMdUQ9fi34whujyqBhymoP1",
+          "toUserAccount": "Bqs7Y5mLnXNCU35BnGKrvFfaX5p3tqeFGyR3SzUAX5hp",
+          "tokenAmount": 28214.522749,
+          "mint": "8y45AJzCUBSZL1UDFQRzCKovQBLQFudBrpPeg5yNpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "4CuZq3JT3a6UidjsmCJMPHhECAq293Vw2Ndvkn6hTCJbXuLfPdJcJVuQY9zRRpKsj4T2ZusdnEW6AopiRPG6ZHCM",
+    "block_slot": 392300182,
+    "block_time": 1767942969,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "HF4d272yEW4mXeLF2HDXbPV8y1UUXumi2MwTvZ1CkYUo",
+          "toTokenAccount": "GvbLCozP1jjJeEb5yrjjr9tUb9H2SPcr7kEzGwh293WW",
+          "fromUserAccount": "4dXwq2NgMuDdWf9RdXBbCsZhQVzpuPAiK9iJemD63feh",
+          "toUserAccount": "Fgofwuh71xa1qEwV2q67seQWufKCT98G9DpTqNdJjpCz",
+          "tokenAmount": 1469289.4291,
+          "mint": "x95HN3DWvbfCBtTjGm587z8suK3ec6cwQwgZNLbWKyp",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "HF4d272yEW4mXeLF2HDXbPV8y1UUXumi2MwTvZ1CkYUo",
+          "toTokenAccount": "E2m4WYm3LbbVifVY7KMKAiMcizr2DgrKAgw7P7EZVjRa",
+          "fromUserAccount": "4dXwq2NgMuDdWf9RdXBbCsZhQVzpuPAiK9iJemD63feh",
+          "toUserAccount": "A4NBzSvC6SbwFfBGFd7MAsHyUDGx9kXxWrQdusQ9tJ6z",
+          "tokenAmount": 2937109568.8038,
+          "mint": "x95HN3DWvbfCBtTjGm587z8suK3ec6cwQwgZNLbWKyp",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "HZeLxbZ9uHtSpwZC3LBr4Nubd14iHwz7bRSghRZf5VCG",
+          "toTokenAccount": "BvLbtUGLYEwdzBu3nLu4gmNjLqeq8Myp2W99yRFg5J9m",
+          "fromUserAccount": "FERjPVNEa7Udq8CEv68h6tPL46Tq7ieE49HrE2wea3XT",
+          "toUserAccount": "4dXwq2NgMuDdWf9RdXBbCsZhQVzpuPAiK9iJemD63feh",
+          "tokenAmount": 0.127860943,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BvLbtUGLYEwdzBu3nLu4gmNjLqeq8Myp2W99yRFg5J9m",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "4dXwq2NgMuDdWf9RdXBbCsZhQVzpuPAiK9iJemD63feh",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.001086818,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "4xUCeCfk6FZMrnzFdj1aYeLnqCNgHc2M97Gstx8DoiR5",
+          "toTokenAccount": "",
+          "fromUserAccount": "Fgofwuh71xa1qEwV2q67seQWufKCT98G9DpTqNdJjpCz",
+          "toUserAccount": "",
+          "tokenAmount": 0.115219582,
+          "mint": "FZN7QZ8ZUUAxMPfxYEYkH3cXUASzH8EqA6B4tyCL8f1j",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "",
+          "toTokenAccount": "Fgofwuh71xa1qEwV2q67seQWufKCT98G9DpTqNdJjpCz",
+          "fromUserAccount": "",
+          "toUserAccount": "Fgofwuh71xa1qEwV2q67seQWufKCT98G9DpTqNdJjpCz",
+          "tokenAmount": 2937109568.8038,
+          "mint": "GLeewidJLKiCsbMsdrVSwYUMcVhp9Fu4yXkDC7zbDQK7",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "rdZ9njY6Pi7rZGt3fFj7BAnhcUdHQbPK5RbNCxq2VvV9s6iFqWC2BnXE5WYaj3krQqg8p9TXmQnems2YkwosXhP",
+    "block_slot": 392300181,
+    "block_time": 1767942969,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "5LmZcV1tzJNF4GNmwJ2MVAMRq8hj8FybzkZNnU1cSTuB",
+          "toTokenAccount": "6eK2zDAGmj1ZUzqk5Df9M2Ed7mYmsEMN5Y5UyeA8VfYs",
+          "fromUserAccount": "BpURFHUcicnoTxDG6ZUCENPCtRFbWk6Nyw9oD8r6w2E5",
+          "toUserAccount": "sHzdBuB54Fh9irqV1vbPSWgrvjJyVAYXtgRzUPAhB8A",
+          "tokenAmount": 0.001062575,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5LmZcV1tzJNF4GNmwJ2MVAMRq8hj8FybzkZNnU1cSTuB",
+          "toTokenAccount": "7GFUN3bWzJMKMRZ34JLsvcqdssDbXnp589SiE33KVwcC",
+          "fromUserAccount": "BpURFHUcicnoTxDG6ZUCENPCtRFbWk6Nyw9oD8r6w2E5",
+          "toUserAccount": "7VtfL8fvgNfhz17qKRMjzQEXgbdpnHHHQRh54R9jP2RJ",
+          "tokenAmount": 1.0008e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5LmZcV1tzJNF4GNmwJ2MVAMRq8hj8FybzkZNnU1cSTuB",
+          "toTokenAccount": "DmRWJvViGAVGXchWY5hVSYvTQc8fzwJWKfxTzjwAC6ud",
+          "fromUserAccount": "BpURFHUcicnoTxDG6ZUCENPCtRFbWk6Nyw9oD8r6w2E5",
+          "toUserAccount": "FmsRswSs2XEfy8VnSzEMLRkHu1G1tytirCHNNBGv5Lca",
+          "tokenAmount": 3.229e-06,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "6eK2zDAGmj1ZUzqk5Df9M2Ed7mYmsEMN5Y5UyeA8VfYs",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "sHzdBuB54Fh9irqV1vbPSWgrvjJyVAYXtgRzUPAhB8A",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 9.031e-06,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CBno1iwsmhJtFEon6oCFwcPszPaC6kUHuXnmKTJFTy6J",
+          "toTokenAccount": "8hciBpqJdLQyPDunqqnKeHH76siZQu45Hw6wZjxALqQC",
+          "fromUserAccount": "sHzdBuB54Fh9irqV1vbPSWgrvjJyVAYXtgRzUPAhB8A",
+          "toUserAccount": "BpURFHUcicnoTxDG6ZUCENPCtRFbWk6Nyw9oD8r6w2E5",
+          "tokenAmount": 55533.850389,
+          "mint": "ETHqbuPpNby8NE7rZzr4oTTJhEwxX73n6qgsYpbypump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "4BE9h5kux464sXYUa8oHY4Saoz8exffHBq3R3V6b2yv92BiMtzqse9Bf7fni8UskvWQpeaYYbd1xGqxNELbqxiKK",
+    "block_slot": 392300179,
+    "block_time": 1767942968,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "7zWKfnN9GSnDV6FyCjgugzs3fz8pEgSiuTwDq9qpNwZ",
+          "toTokenAccount": "ADXwUbfV8j4Y9ttmadzJ8PGVSkkvucNYw2J6bP7dgTYP",
+          "fromUserAccount": "6uw63EB8yWT99Naqh8L1Lmwi1TwFua8Sozk8dWDYU9rd",
+          "toUserAccount": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "tokenAmount": 38.358763,
+          "mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "23Fw3VBKEVqxApSubtR11kX62WcHdHGqKBV562pugPvg",
+          "toTokenAccount": "Ce5o3ucTwqtnXwv1CEV8UYN3C5C6d9jpKAB6dTyCEzno",
+          "fromUserAccount": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "toUserAccount": "6uw63EB8yWT99Naqh8L1Lmwi1TwFua8Sozk8dWDYU9rd",
+          "tokenAmount": 2793845.647232,
+          "mint": "63HESpgYsa4KHgntbg2F5nhexQJamj7sJNneqiJ7bonk",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "ADXwUbfV8j4Y9ttmadzJ8PGVSkkvucNYw2J6bP7dgTYP",
+          "toTokenAccount": "Cyu7XFTGSHSwFtsghriq9DfGVMehrdCaepFefFKNdcKB",
+          "fromUserAccount": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "toUserAccount": "56XVRVAsgWv6ADaxzoNnbL38LMoWKM5WiSAhrAWUbd2p",
+          "tokenAmount": 0.383587,
+          "mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "ADXwUbfV8j4Y9ttmadzJ8PGVSkkvucNYw2J6bP7dgTYP",
+          "toTokenAccount": "5GPcCAnv2QNbgA5mukaJbHFWRKDAt3Smfd64C2mkBvy7",
+          "fromUserAccount": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "toUserAccount": "9sHpTfmVpCfP2zexRNK6j38NBchMv1RWpdXPK5NEcZan",
+          "tokenAmount": 0.019179,
+          "mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2yRhXXmaPPZUMhWq6waDJqMdq5BAhYjJeQnDkVkDg9ba",
+          "toTokenAccount": "CdpY42BTUgCmvACA8oHeCkvChKHyjqwtRbUAkpSj7xJW",
+          "fromUserAccount": "6uw63EB8yWT99Naqh8L1Lmwi1TwFua8Sozk8dWDYU9rd",
+          "toUserAccount": "G8LqPHYAMcwP14CDgk9XsV9VdwpsW3aJ59VubwnyrJVr",
+          "tokenAmount": 0.273719412,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3KxnkzueoZiayw5kAT6o4nzyoyPxkwMdxviv7wNgVvyc",
+          "toTokenAccount": "7zWKfnN9GSnDV6FyCjgugzs3fz8pEgSiuTwDq9qpNwZ",
+          "fromUserAccount": "G8LqPHYAMcwP14CDgk9XsV9VdwpsW3aJ59VubwnyrJVr",
+          "toUserAccount": "6uw63EB8yWT99Naqh8L1Lmwi1TwFua8Sozk8dWDYU9rd",
+          "tokenAmount": 38.358763,
+          "mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "4vnPGUSjm2mZiWJqFQqJLbp1JxRBCL8copBF1rTrUQVqsWyXrT9dqx2TU1J9s3uFAkmuzshs1hio7AYsKBEtq5hK",
+    "block_slot": 392300177,
+    "block_time": 1767942967,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "Dgf9FaUtc2CwEUQ1M2DThnwVC1vuS2hWi2gH1FozMhrJ",
+          "toTokenAccount": "9wkeU1ffc6sYxnF4hqf7CKVwZAcUcVcgU5XyvF4qSFaL",
+          "fromUserAccount": "HtUDrzAjt215Noq9KCshkhvDZw4X1Va9A3UimsbaYpnT",
+          "toUserAccount": "5Tn5iRRqJYHn5AreHfsFd1KNMbg7mU1BEwzNPEYLK6Rd",
+          "tokenAmount": 0.184274385,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "Dgf9FaUtc2CwEUQ1M2DThnwVC1vuS2hWi2gH1FozMhrJ",
+          "toTokenAccount": "FGptqdxjahafaCzpZ1T6EDtCzYMv7Dyn5MgBLyB3VUFW",
+          "fromUserAccount": "HtUDrzAjt215Noq9KCshkhvDZw4X1Va9A3UimsbaYpnT",
+          "toUserAccount": "AVmoTthdrX6tKt4nDjco2D775W2YK3sDhxPcMmzUAmTY",
+          "tokenAmount": 9.3068e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "Dgf9FaUtc2CwEUQ1M2DThnwVC1vuS2hWi2gH1FozMhrJ",
+          "toTokenAccount": "EfnskBgxXUhRoCQwKB8Rt33orhYPAy2bkghzgk249vET",
+          "fromUserAccount": "HtUDrzAjt215Noq9KCshkhvDZw4X1Va9A3UimsbaYpnT",
+          "toUserAccount": "5wFFM3fyWwwke19e7zptLHhd241bBYxk989pdHVmHMAb",
+          "tokenAmount": 0.001396019,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "9wkeU1ffc6sYxnF4hqf7CKVwZAcUcVcgU5XyvF4qSFaL",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "5Tn5iRRqJYHn5AreHfsFd1KNMbg7mU1BEwzNPEYLK6Rd",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.001566332,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "9wkeU1ffc6sYxnF4hqf7CKVwZAcUcVcgU5XyvF4qSFaL",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "5Tn5iRRqJYHn5AreHfsFd1KNMbg7mU1BEwzNPEYLK6Rd",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 2.4741e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "61moyw7vGEB5sE6o4XxbGnVdDiJPpNCdMvxqFFhaUQst",
+          "toTokenAccount": "7SJNQYvELznuZTErFkiwhjDoYj9hWvupRtEpTG7FfZgw",
+          "fromUserAccount": "5Tn5iRRqJYHn5AreHfsFd1KNMbg7mU1BEwzNPEYLK6Rd",
+          "toUserAccount": "HtUDrzAjt215Noq9KCshkhvDZw4X1Va9A3UimsbaYpnT",
+          "tokenAmount": 39997.942385,
+          "mint": "2ho2rMakwEpFf8FsCfw9cMVUzSSjCoZ7RcctmqYFpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "2QiuEd66BvgFyurUy5AreGMSJtBzSK2pcCgsvQJz8AyVR6pUnLY6XLurQrUYQ3rQej4cmrHXtFwFbhDRGBmjq365",
+    "block_slot": 392300177,
+    "block_time": 1767942967,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "GMVhj55CC7KvJ1975zxM6NG8wfK8uy9GgCh4YXCevsfM",
+          "toTokenAccount": "7oK3Bcrat9vWS2J6DgKFcWaxozW81R2wVFKHerz7ZeWr",
+          "fromUserAccount": "6zQmkt9mTchCZGv3KWvpa2ndkdvtGpoCyaQt1BNSwiuU",
+          "toUserAccount": "2JEZnFqd1iWqYKZomBr2WPvQi75weBodjVvNxgmjMoC9",
+          "tokenAmount": 128089.341659,
+          "mint": "4y9HQ14ECH7qHyVtf2QNu2MfFwQW9uJuWHXxtVmypump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BN7BgzKk6kbqbBVJY9CSY8k2pQKtEWkfPiyDmzttxWJM",
+          "toTokenAccount": "9ZF5NqeiFuCMtMe2e9wXfVv8AJR79yftbczAu2hpDnT1",
+          "fromUserAccount": "2JEZnFqd1iWqYKZomBr2WPvQi75weBodjVvNxgmjMoC9",
+          "toUserAccount": "6zQmkt9mTchCZGv3KWvpa2ndkdvtGpoCyaQt1BNSwiuU",
+          "tokenAmount": 0.024504535,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BN7BgzKk6kbqbBVJY9CSY8k2pQKtEWkfPiyDmzttxWJM",
+          "toTokenAccount": "94qWNrtmfn42h3ZjUZwWvK1MEo9uVmmrBPd2hpNjYDjb",
+          "fromUserAccount": "2JEZnFqd1iWqYKZomBr2WPvQi75weBodjVvNxgmjMoC9",
+          "toUserAccount": "62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV",
+          "tokenAmount": 0.000227847,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BN7BgzKk6kbqbBVJY9CSY8k2pQKtEWkfPiyDmzttxWJM",
+          "toTokenAccount": "Gu5E8ugxNSd3sENgQuhkDj7zVhwPhjYMVpqnb8A8xdor",
+          "fromUserAccount": "2JEZnFqd1iWqYKZomBr2WPvQi75weBodjVvNxgmjMoC9",
+          "toUserAccount": "2HWi4fR8un8UUDpVdB4YWUbAQGR5hukEwg62mPPNLAhg",
+          "tokenAmount": 7.3499e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BN7BgzKk6kbqbBVJY9CSY8k2pQKtEWkfPiyDmzttxWJM",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "2JEZnFqd1iWqYKZomBr2WPvQi75weBodjVvNxgmjMoC9",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.000212657,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "291bvjP81oWVTHGqT6QogrLkmC93SgdKpyehqWMAPH9qq8VJ4tQ7U82v8wSQ2QXRBoDiLFh6vBDjkE7xtefrGXXY",
+    "block_slot": 392300176,
+    "block_time": 1767942967,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "32LThHSGN835SsWaZfo25HYJHMNCrCsZhLtq2EnJdFgn",
+          "toTokenAccount": "GqHpnJStFCy1N5tKBW6kssTkbhYGiE1JEmzgE8HwLB91",
+          "fromUserAccount": "DkzGnqWT3zDEJTrNsc3SgpiKEw8oh1dKsegEKEU8mvRr",
+          "toUserAccount": "3HQogkZnFnaFB1KD1UAAn4JZv9BM6T3AJd5omCmbH2uD",
+          "tokenAmount": 0.245398406,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "32LThHSGN835SsWaZfo25HYJHMNCrCsZhLtq2EnJdFgn",
+          "toTokenAccount": "7xQYoUjUJF1Kg6WVczoTAkaNhn5syQYcbvjmFrhjWpx",
+          "fromUserAccount": "DkzGnqWT3zDEJTrNsc3SgpiKEw8oh1dKsegEKEU8mvRr",
+          "toUserAccount": "FWsW1xNtWscwNmKv6wVsU1iTzRN6wmmk3MjxRP5tT7hz",
+          "tokenAmount": 0.000122455,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "32LThHSGN835SsWaZfo25HYJHMNCrCsZhLtq2EnJdFgn",
+          "toTokenAccount": "W1uQsfVrvauwEq9GsFCos8iQivM7UZ2zHwHSJvE22X6",
+          "fromUserAccount": "DkzGnqWT3zDEJTrNsc3SgpiKEw8oh1dKsegEKEU8mvRr",
+          "toUserAccount": "2B9MaM9uPy4JKb2JewWing1Hzfi8KefEjVyj9V43FxJM",
+          "tokenAmount": 0.002204178,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "32LThHSGN835SsWaZfo25HYJHMNCrCsZhLtq2EnJdFgn",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "DkzGnqWT3zDEJTrNsc3SgpiKEw8oh1dKsegEKEU8mvRr",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.002123714,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "EQgGc97E3TsMYsVemnP8k36wtAideYiRXwvpWZAukeBf",
+          "toTokenAccount": "CJms5Sph7kq4rLz6GVRKJgu5X2kKAHr2v8KkLsrd2UQP",
+          "fromUserAccount": "3HQogkZnFnaFB1KD1UAAn4JZv9BM6T3AJd5omCmbH2uD",
+          "toUserAccount": "DkzGnqWT3zDEJTrNsc3SgpiKEw8oh1dKsegEKEU8mvRr",
+          "tokenAmount": 125919.486053,
+          "mint": "6VwLzwEvaV1rMu7ko57YbwrNd4zcwGTSLnTrsKTnpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "5erwsc4LSvAVn1UsWCgWL9EwP7vH1V4Ury2P3S8VEyuwGhFejE4CpN12ae85usyPNvfJoRfn3jGeiPph7Qztxnt3",
+    "block_slot": 392300176,
+    "block_time": 1767942967,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "AHBnGoo4x42FQq99CPmeAy2jevD3eiM8kUns6t3p4DHj",
+          "toTokenAccount": "AioJRQXvcDLRhHMd6DAkTbbMpgVx63qSGQYmRBS2vHYA",
+          "fromUserAccount": "42yfmRAoQq1cSf8cRz8j4aLitFhcJN1ZkkfE5tvQnUMC",
+          "toUserAccount": "7imnGYfCovXjMWKdbQvETFVMe72MQDX4S5zW4GFxMJME",
+          "tokenAmount": 93.768986,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "95QUtvDkuoDZrNJiuh9MdahkpRNtSVhZRe83oepd8AM7",
+          "toTokenAccount": "4CQUrzq6qaVtMVtWEL2CvaZjqBUxnMJtBgM6M3hHHDsJ",
+          "fromUserAccount": "7imnGYfCovXjMWKdbQvETFVMe72MQDX4S5zW4GFxMJME",
+          "toUserAccount": "8UgoPZAR8ZLoEmV6pJ8SZ6JKESP2X8nbnrZSdSgNtg1y",
+          "tokenAmount": 0.000337,
+          "mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "95QUtvDkuoDZrNJiuh9MdahkpRNtSVhZRe83oepd8AM7",
+          "toTokenAccount": "8HqXfnkQahD6dV48bcxMmCUfyLqh8xZ45xovxibmta4d",
+          "fromUserAccount": "7imnGYfCovXjMWKdbQvETFVMe72MQDX4S5zW4GFxMJME",
+          "toUserAccount": "42yfmRAoQq1cSf8cRz8j4aLitFhcJN1ZkkfE5tvQnUMC",
+          "tokenAmount": 93.856379,
+          "mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "C25cBBB63tu2gXZUbEUAzCzzdG6FfFuDThkKxgfrw5Kd",
+          "toTokenAccount": "2BHTqFkkzb7yVcci4GkQgrZzXt3mnXVEkH9NAiy4zAgA",
+          "fromUserAccount": "42yfmRAoQq1cSf8cRz8j4aLitFhcJN1ZkkfE5tvQnUMC",
+          "toUserAccount": "DuCtzPBagBE1foJXegkbTMv9fwFgKyHBHDCbk2Q7K1gi",
+          "tokenAmount": 1.052574446,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "C25cBBB63tu2gXZUbEUAzCzzdG6FfFuDThkKxgfrw5Kd",
+          "toTokenAccount": "7xQYoUjUJF1Kg6WVczoTAkaNhn5syQYcbvjmFrhjWpx",
+          "fromUserAccount": "42yfmRAoQq1cSf8cRz8j4aLitFhcJN1ZkkfE5tvQnUMC",
+          "toUserAccount": "FWsW1xNtWscwNmKv6wVsU1iTzRN6wmmk3MjxRP5tT7hz",
+          "tokenAmount": 0.000525237,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "C25cBBB63tu2gXZUbEUAzCzzdG6FfFuDThkKxgfrw5Kd",
+          "toTokenAccount": "H7LQRheK13ochrVy5QqBi5m6SfVAHCCqs6mY6tJ9H8s8",
+          "fromUserAccount": "42yfmRAoQq1cSf8cRz8j4aLitFhcJN1ZkkfE5tvQnUMC",
+          "toUserAccount": "GMybV8Q4285pf1LVQVNURNiVhvUWyTm71RiHuf8x1p2D",
+          "tokenAmount": 0.008403788,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "AHBnGoo4x42FQq99CPmeAy2jevD3eiM8kUns6t3p4DHj",
+          "toTokenAccount": "J8gt2jBUi6DW6gdUdm1fkP9oGN4xXwPdQbCZkkN78R3Z",
+          "fromUserAccount": "42yfmRAoQq1cSf8cRz8j4aLitFhcJN1ZkkfE5tvQnUMC",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 1.275375,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "8BrVfsvzb1DZqCactbYWoKSv24AfsLBuXJqzpzYCwznF",
+          "toTokenAccount": "C25cBBB63tu2gXZUbEUAzCzzdG6FfFuDThkKxgfrw5Kd",
+          "fromUserAccount": "DB3sUCP2H4icbeKmK6yb6nUxU5ogbcRHtGuq7W2RoRwW",
+          "toUserAccount": "42yfmRAoQq1cSf8cRz8j4aLitFhcJN1ZkkfE5tvQnUMC",
+          "tokenAmount": 0.392523704,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "AHBnGoo4x42FQq99CPmeAy2jevD3eiM8kUns6t3p4DHj",
+          "toTokenAccount": "HsQcHFFNUVTp3MWrXYbuZchBNd4Pwk8636bKzLvpfYNR",
+          "fromUserAccount": "42yfmRAoQq1cSf8cRz8j4aLitFhcJN1ZkkfE5tvQnUMC",
+          "toUserAccount": "DB3sUCP2H4icbeKmK6yb6nUxU5ogbcRHtGuq7W2RoRwW",
+          "tokenAmount": 54.999838,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "AzzKL5BpnX9UXfJRyiGbAwyFvw93vwCTBvW56tJebsqd",
+          "toTokenAccount": "C25cBBB63tu2gXZUbEUAzCzzdG6FfFuDThkKxgfrw5Kd",
+          "fromUserAccount": "3QYYvFWgSuGK8bbxMSAYkCqE8QfSuFtByagnZAuekia2",
+          "toUserAccount": "42yfmRAoQq1cSf8cRz8j4aLitFhcJN1ZkkfE5tvQnUMC",
+          "tokenAmount": 0.668979769,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "8HqXfnkQahD6dV48bcxMmCUfyLqh8xZ45xovxibmta4d",
+          "toTokenAccount": "EmyNiSYtMYZsBCVYpzLwNduQFqCpDGR8qM1h2CoLpWnM",
+          "fromUserAccount": "42yfmRAoQq1cSf8cRz8j4aLitFhcJN1ZkkfE5tvQnUMC",
+          "toUserAccount": "3QYYvFWgSuGK8bbxMSAYkCqE8QfSuFtByagnZAuekia2",
+          "tokenAmount": 93.856379,
+          "mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FPWejxYHEoKkQjA5Zi21jvYXjtJ7r4bz76wFdatuZcwJ",
+          "toTokenAccount": "4P13oZy1fi3PTpgmmZCykg4aSaxnQiDboUDP8cbbVXqg",
+          "fromUserAccount": "DuCtzPBagBE1foJXegkbTMv9fwFgKyHBHDCbk2Q7K1gi",
+          "toUserAccount": "42yfmRAoQq1cSf8cRz8j4aLitFhcJN1ZkkfE5tvQnUMC",
+          "tokenAmount": 274155.156085,
+          "mint": "3Ps2gVJpDyEM2NDPgQNWreVUUn45i3HiRFb9rjdXpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "5hdgK3VefgzMcNvBDtA3NyVBqASFXFGNai9B14s4MewBSB8os1TrqhoSYD5gzKBxSyaKHMMQSoJ6VA1Fp84a4Vij",
+    "block_slot": 392300174,
+    "block_time": 1767942966,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "Hm1uNgrswQ4FRdkJMFh6iLCSoZ4X1BjFW2rqA6wM2yoP",
+          "toTokenAccount": "6AMWTvaL1pscDo5CAaBhPfv7xnSLjJ3ZXScV9yt5Gr5G",
+          "fromUserAccount": "D7KTZrPwwNhquHDJUCakwALvp467J34SSVm5gJxKRSd2",
+          "toUserAccount": "3LoAYHuSd7Gh8d7RTFnhvYtiTiefdZ5ByamU42vkzd76",
+          "tokenAmount": 0.000310101,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "F87PKVNCeXdFVA6SxvVMigy1DYS3ivJfcuVCgpwMa3TB",
+          "toTokenAccount": "7YRcFYEkdFj5cjPwRdPXiRy65SCBCkSffhFsvty7CoBa",
+          "fromUserAccount": "D7KTZrPwwNhquHDJUCakwALvp467J34SSVm5gJxKRSd2",
+          "toUserAccount": "H3bfJvJYD3GNqkQJVceaWiZaVFNNwvTwgridiv9h2myb",
+          "tokenAmount": 168114.113106,
+          "mint": "2jE2Hnn3oEk35b3vEZSVydriutoLWe8ccxrMASskpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "5hySKM7q1yTDjs6eKmsZSL4AQvCSeGi43HTEg9cmgLw5i7UuKRQkUTL5gcj8NHFbwrkne2ewX8PCXSg64zTCyKcW",
+    "block_slot": 392300170,
+    "block_time": 1767942965,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "CvueSDwr74To2DBjzbfK6ZyBCoKgLxNNUX2Y986G1i6c",
+          "toTokenAccount": "2BHTqFkkzb7yVcci4GkQgrZzXt3mnXVEkH9NAiy4zAgA",
+          "fromUserAccount": "BJxooH4zTmuSzhfSQ4sNEdLBRLwxtjHmZAz9yHjuZ7LB",
+          "toUserAccount": "DuCtzPBagBE1foJXegkbTMv9fwFgKyHBHDCbk2Q7K1gi",
+          "tokenAmount": 0.007018824,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CvueSDwr74To2DBjzbfK6ZyBCoKgLxNNUX2Y986G1i6c",
+          "toTokenAccount": "7xQYoUjUJF1Kg6WVczoTAkaNhn5syQYcbvjmFrhjWpx",
+          "fromUserAccount": "BJxooH4zTmuSzhfSQ4sNEdLBRLwxtjHmZAz9yHjuZ7LB",
+          "toUserAccount": "FWsW1xNtWscwNmKv6wVsU1iTzRN6wmmk3MjxRP5tT7hz",
+          "tokenAmount": 3.503e-06,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CvueSDwr74To2DBjzbfK6ZyBCoKgLxNNUX2Y986G1i6c",
+          "toTokenAccount": "H7LQRheK13ochrVy5QqBi5m6SfVAHCCqs6mY6tJ9H8s8",
+          "fromUserAccount": "BJxooH4zTmuSzhfSQ4sNEdLBRLwxtjHmZAz9yHjuZ7LB",
+          "toUserAccount": "GMybV8Q4285pf1LVQVNURNiVhvUWyTm71RiHuf8x1p2D",
+          "tokenAmount": 5.6039e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "A3DTZSBsFQ5fp56xH2DH6Djuh7FLWNbDZaWXDjjrPt3s",
+          "toTokenAccount": "J8gt2jBUi6DW6gdUdm1fkP9oGN4xXwPdQbCZkkN78R3Z",
+          "fromUserAccount": "BJxooH4zTmuSzhfSQ4sNEdLBRLwxtjHmZAz9yHjuZ7LB",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.008502,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "A3DTZSBsFQ5fp56xH2DH6Djuh7FLWNbDZaWXDjjrPt3s",
+          "toTokenAccount": "GhFfLFSprPpfoRaWakPMmJTMJBHuz6C694jYwxy2dAic",
+          "fromUserAccount": "BJxooH4zTmuSzhfSQ4sNEdLBRLwxtjHmZAz9yHjuZ7LB",
+          "toUserAccount": "65ZHSArs5XxPseKQbB1B4r16vDxMWnCxHMzogDAqiDUc",
+          "tokenAmount": 0.991796,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "CRo8DBwrmd97DJfAnvCv96tZPL5Mktf2NZy2ZnhDer1A",
+          "toTokenAccount": "CvueSDwr74To2DBjzbfK6ZyBCoKgLxNNUX2Y986G1i6c",
+          "fromUserAccount": "65ZHSArs5XxPseKQbB1B4r16vDxMWnCxHMzogDAqiDUc",
+          "toUserAccount": "BJxooH4zTmuSzhfSQ4sNEdLBRLwxtjHmZAz9yHjuZ7LB",
+          "tokenAmount": 0.007078366,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FPWejxYHEoKkQjA5Zi21jvYXjtJ7r4bz76wFdatuZcwJ",
+          "toTokenAccount": "8mGWTC6acDTv4LWggdMZ3X8MFuGo68wrLtHSLPEkBFSM",
+          "fromUserAccount": "DuCtzPBagBE1foJXegkbTMv9fwFgKyHBHDCbk2Q7K1gi",
+          "toUserAccount": "BJxooH4zTmuSzhfSQ4sNEdLBRLwxtjHmZAz9yHjuZ7LB",
+          "tokenAmount": 1830.904724,
+          "mint": "3Ps2gVJpDyEM2NDPgQNWreVUUn45i3HiRFb9rjdXpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "26BTCWhpK2smXBrkHeFXkd7QbPuzh3TAsgGQbZd55Dnot2RfCZ5etVqfd2KgYbbpoxmtMmW7BP2RHNtGhtnJfi7F",
+    "block_slot": 392300169,
+    "block_time": 1767942964,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "7RZqWPMXyG6F86iQEZqvLu6PuqEc62Xrcd1mjvYfmSB1",
+          "toTokenAccount": "9t4P5wMwfFkyn92Z7hf463qYKEZf8ERVZsGBEPNp8uJx",
+          "fromUserAccount": "8yy6kNaKKYoiPMvLKaA92mW6C4542RwkfneZvR67EXd2",
+          "toUserAccount": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+          "tokenAmount": 0.0001,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5pVN5XZB8cYBjNLFrsBCPWkCQBan5K5Mq2dWGzwPgGJV",
+          "toTokenAccount": "A5qDXptDf6KrLKvsiZZBdDexEXYfjqAiFvp5e296QPqp",
+          "fromUserAccount": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+          "toUserAccount": "8yy6kNaKKYoiPMvLKaA92mW6C4542RwkfneZvR67EXd2",
+          "tokenAmount": 7.13e-07,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "4PWU98fermeDoiAnM7Tx9SDJAbu6p8fsSS2LKgn1VAkZMM9bnKe9TRNnwkcNYsF2cbPZXWGtHBG4Cwmd879xCAaZ",
+    "block_slot": 392300168,
+    "block_time": 1767942964,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "A7MRmGiWV16k2ufPgxNqmEcLGyYcZG4H2GFG6XaFJeBw",
+          "toTokenAccount": "BRkbiMyNcBKRdXFjRQWTnkfoTP3ApnRiTcV87aGwQMFW",
+          "fromUserAccount": "EvkWXKTmTkr2Aq7Gbik7qsm1bHN1xPaxxrC4SZ7wVpRS",
+          "toUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "tokenAmount": 1.600268721,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "A7MRmGiWV16k2ufPgxNqmEcLGyYcZG4H2GFG6XaFJeBw",
+          "toTokenAccount": "Bvtgim23rfocUzxVX9j9QFxTbBnH8JZxnaGLCEkXvjKS",
+          "fromUserAccount": "EvkWXKTmTkr2Aq7Gbik7qsm1bHN1xPaxxrC4SZ7wVpRS",
+          "toUserAccount": "9rPYyANsfQZw3DnDmKE3YCQF5E8oD89UXoHn9JFEhJUz",
+          "tokenAmount": 0.015070886,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "A7MRmGiWV16k2ufPgxNqmEcLGyYcZG4H2GFG6XaFJeBw",
+          "toTokenAccount": "7GWCufbc66Qs9Z7qJxCvDLgMi86DdUmVbab3eZThP6fb",
+          "fromUserAccount": "EvkWXKTmTkr2Aq7Gbik7qsm1bHN1xPaxxrC4SZ7wVpRS",
+          "toUserAccount": "Ho6qQgaPDAt7hJStnLU2QBG275MAPDCB2ibPd9kyfFzq",
+          "tokenAmount": 0.004861576,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BRkbiMyNcBKRdXFjRQWTnkfoTP3ApnRiTcV87aGwQMFW",
+          "toTokenAccount": "55UAoZnJwrtJntdW6nPS3LhYx5ywhYDfwpRq1z2gjfMC",
+          "fromUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "toUserAccount": "3mq1eCNSX7e1LthaPRsfcA5e5pcfv6mCcZTBREvoPsbJ",
+          "tokenAmount": 1.580828419,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BRkbiMyNcBKRdXFjRQWTnkfoTP3ApnRiTcV87aGwQMFW",
+          "toTokenAccount": "BWXT6RUhit9FfJQM3pBmqeFLPYmuxgmyhMGC5sGr8RbA",
+          "fromUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "toUserAccount": "G5UZAVbAf46s7cKWoyKu8kYTip9DGTpbLZ2qa9Aq69dP",
+          "tokenAmount": 0.014698765,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "BRkbiMyNcBKRdXFjRQWTnkfoTP3ApnRiTcV87aGwQMFW",
+          "toTokenAccount": "DzFtuEuXXWGZw3KtLsktnDLgUKhnNdUAPLvnpZQWNmQ7",
+          "fromUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "toUserAccount": "5dqxc9ZMctP4URAWNaPtUN5Gqw9S2ijzDjohY9SHcPgY",
+          "tokenAmount": 0.004741537,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5dGDW5WMTrnfyEHzqk12zqk3WE5junrTnNK7oc4dKW7Y",
+          "toTokenAccount": "YJXVh2aZPXd3w77iyTCUFum9huGcZj2LNxQtWCkZgHm",
+          "fromUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "toUserAccount": "8psNvWTrdNTiVRNzAgsou9kETXNJm2SXZyaKuJraVRtf",
+          "tokenAmount": 80775.231115,
+          "mint": "FtqeiRamVQqrruRx5jSQU9ATH3wtCHaBh1KF7SR2pump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5dGDW5WMTrnfyEHzqk12zqk3WE5junrTnNK7oc4dKW7Y",
+          "toTokenAccount": "4A59ewLxBuLBsQKYKKr1pyWPz3cSaJN3JqX2KHhPzzX8",
+          "fromUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "toUserAccount": "EvkWXKTmTkr2Aq7Gbik7qsm1bHN1xPaxxrC4SZ7wVpRS",
+          "tokenAmount": 9422193.135409,
+          "mint": "FtqeiRamVQqrruRx5jSQU9ATH3wtCHaBh1KF7SR2pump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "H2C3Ugnj2wMZr3Vb82Ax7QNrdCJRKygaLpHRyivDCjL9",
+          "toTokenAccount": "8HbiV6LJQS5prUWeUkavq2NAUWhyRFv7Emu4gmSCWKQZ",
+          "fromUserAccount": "3mq1eCNSX7e1LthaPRsfcA5e5pcfv6mCcZTBREvoPsbJ",
+          "toUserAccount": "ErQ4niTMK2fa1AspREKdqehCSoYz6BXwbumVXhqyk9AZ",
+          "tokenAmount": 18740216.705179,
+          "mint": "4jP4wWtHN2vWAXYRwCoUD5xgVzzepanGJ9DhUaj2pump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "Axs3VUeXTdoeA3TdqKUE5MScajh348paYoiWC2MPcVy4peq5WqvieADDRkknea4MtDashyhDxPeDxBu7vwn6MtC",
+    "block_slot": 392300168,
+    "block_time": 1767942964,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "7jNVL8E3LaqSKXNsYwzq3E6Tawz4DoHHVSWL7N9rNqty",
+          "toTokenAccount": "D1WdceEfZaZv3TPQesiZqeMVUnBYEK46pR4pd2CFherm",
+          "fromUserAccount": "364oiYFttJdVtLCDNQkZA5nu5UAyj26Tc1ayY1uRKY6z",
+          "toUserAccount": "FhVo3mqL8PW5pH5U2CN4XE33DokiyZnUwuGpH2hmHLuM",
+          "tokenAmount": 364267.206304373,
+          "mint": "22rP5NxzHNAyH8tStDbNwp5NbvrnxpkzWpTGSqguBAGS",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FPoTvpgLypFNCUsXajF98pve6fXDrhbEp3ipY7UcfkjV",
+          "toTokenAccount": "87h1Qifc4gFLkhQ45zRAwWwkSC7iisxmQNmKL1DhXi7j",
+          "fromUserAccount": "FhVo3mqL8PW5pH5U2CN4XE33DokiyZnUwuGpH2hmHLuM",
+          "toUserAccount": "364oiYFttJdVtLCDNQkZA5nu5UAyj26Tc1ayY1uRKY6z",
+          "tokenAmount": 0.024137933,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "8Y1MgAD5xpZDhFJzunUdoyDY7zXT8jMSfscYXoFihmh7",
+          "toTokenAccount": "4h6sNqFYDBWJeikQ2BS6zRtHppzVT5VxFPXmQokCQkD2",
+          "fromUserAccount": "2yf38DKf3j2NKkaYpokNKv7tGmX5G2gedjJvWKVLkFYx",
+          "toUserAccount": "364oiYFttJdVtLCDNQkZA5nu5UAyj26Tc1ayY1uRKY6z",
+          "tokenAmount": 18522.072061,
+          "mint": "ACHEprPEhxibTS5URUtTb44NFA14wpb7vHoTu3rZpump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "87h1Qifc4gFLkhQ45zRAwWwkSC7iisxmQNmKL1DhXi7j",
+          "toTokenAccount": "3Zm19rMmKcbKxwWbtxb3A3xjoCpwoD58za8AsEfn4eWb",
+          "fromUserAccount": "364oiYFttJdVtLCDNQkZA5nu5UAyj26Tc1ayY1uRKY6z",
+          "toUserAccount": "2yf38DKf3j2NKkaYpokNKv7tGmX5G2gedjJvWKVLkFYx",
+          "tokenAmount": 0.023899415,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "87h1Qifc4gFLkhQ45zRAwWwkSC7iisxmQNmKL1DhXi7j",
+          "toTokenAccount": "BWXT6RUhit9FfJQM3pBmqeFLPYmuxgmyhMGC5sGr8RbA",
+          "fromUserAccount": "364oiYFttJdVtLCDNQkZA5nu5UAyj26Tc1ayY1uRKY6z",
+          "toUserAccount": "G5UZAVbAf46s7cKWoyKu8kYTip9DGTpbLZ2qa9Aq69dP",
+          "tokenAmount": 1.1926e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "87h1Qifc4gFLkhQ45zRAwWwkSC7iisxmQNmKL1DhXi7j",
+          "toTokenAccount": "DGGpxm8H8Bj5Dc1wZaLzPPVuiXsJTHoxvP5iR8tje1BK",
+          "fromUserAccount": "364oiYFttJdVtLCDNQkZA5nu5UAyj26Tc1ayY1uRKY6z",
+          "toUserAccount": "CUdmpcWRWqE6Q3wkGeFXrQ4WyukBzhiuVeDTNV5sMknJ",
+          "tokenAmount": 0.000226592,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "7jNVL8E3LaqSKXNsYwzq3E6Tawz4DoHHVSWL7N9rNqty",
+          "toTokenAccount": "2P11fnxTwUiJJ6X3g8tP5cfifchc2afsrww7xL2HyiLi",
+          "fromUserAccount": "364oiYFttJdVtLCDNQkZA5nu5UAyj26Tc1ayY1uRKY6z",
+          "toUserAccount": "8psNvWTrdNTiVRNzAgsou9kETXNJm2SXZyaKuJraVRtf",
+          "tokenAmount": 3122.815182639,
+          "mint": "22rP5NxzHNAyH8tStDbNwp5NbvrnxpkzWpTGSqguBAGS",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "dSy67jr5ZbWB6CiJvy1SnFcsH2XN7GNLvk14zMWxHRVrVPit9PmQayNncGVNGyZ4QFe2FSZh4uej3egcZRN81U5",
+    "block_slot": 392300168,
+    "block_time": 1767942964,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "5hm2upN91VHejUKjizMu3SaLQ93R78cich9344CvdqvC",
+          "toTokenAccount": "BhrfNRxkmHcBqT9kSJRP76cQ7raxSvxf2JTxVTZKaWZB",
+          "fromUserAccount": "4GTgGJn4iBxas7jbrRHUUYVzb8tn96HS6pyYQuMuxRmp",
+          "toUserAccount": "5pEkAUUVnXzrnqG691rvihAWNJZQduFQJhAKrjNBm2TM",
+          "tokenAmount": 0.144446782,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5hm2upN91VHejUKjizMu3SaLQ93R78cich9344CvdqvC",
+          "toTokenAccount": "7xQYoUjUJF1Kg6WVczoTAkaNhn5syQYcbvjmFrhjWpx",
+          "fromUserAccount": "4GTgGJn4iBxas7jbrRHUUYVzb8tn96HS6pyYQuMuxRmp",
+          "toUserAccount": "FWsW1xNtWscwNmKv6wVsU1iTzRN6wmmk3MjxRP5tT7hz",
+          "tokenAmount": 7.208e-05,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "5hm2upN91VHejUKjizMu3SaLQ93R78cich9344CvdqvC",
+          "toTokenAccount": "7dNkUgb468589vCETAyfgR84YMvc846WiWKFD9SmqAQN",
+          "fromUserAccount": "4GTgGJn4iBxas7jbrRHUUYVzb8tn96HS6pyYQuMuxRmp",
+          "toUserAccount": "AaCofgRz5yfr8NfaKn7AJkwkR3Z8eyaJxCC4PFEYbSUU",
+          "tokenAmount": 0.001081189,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "9PKaaV6B9zzhqMxWSsynmSAMFmKLZVQ4iCs1iK9UBF9P",
+          "toTokenAccount": "J8gt2jBUi6DW6gdUdm1fkP9oGN4xXwPdQbCZkkN78R3Z",
+          "fromUserAccount": "4GTgGJn4iBxas7jbrRHUUYVzb8tn96HS6pyYQuMuxRmp",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.174933,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "C3FzbX9n1YD2dow2dCmEv5uNyyf22Gb3TLAEqGBhw5fY",
+          "toTokenAccount": "5hm2upN91VHejUKjizMu3SaLQ93R78cich9344CvdqvC",
+          "fromUserAccount": "FksffEqnBRixYGR791Qw2MgdU7zNCpHVFYBL4Fa4qVuH",
+          "toUserAccount": "4GTgGJn4iBxas7jbrRHUUYVzb8tn96HS6pyYQuMuxRmp",
+          "tokenAmount": 0.145600051,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "9PKaaV6B9zzhqMxWSsynmSAMFmKLZVQ4iCs1iK9UBF9P",
+          "toTokenAccount": "3RWFAQBRkNGq7CMGcTLK3kXDgFTe9jgMeFYqk8nHwcWh",
+          "fromUserAccount": "4GTgGJn4iBxas7jbrRHUUYVzb8tn96HS6pyYQuMuxRmp",
+          "toUserAccount": "FksffEqnBRixYGR791Qw2MgdU7zNCpHVFYBL4Fa4qVuH",
+          "tokenAmount": 20.405498,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "JD4oKfGYWnriX7ifUXvzmMFx6V4kgPssY2LFw4fxhsyy",
+          "toTokenAccount": "dHzANtG4J4rUQupEaGj8KGbReM46oWYqeLEayninAv6",
+          "fromUserAccount": "5pEkAUUVnXzrnqG691rvihAWNJZQduFQJhAKrjNBm2TM",
+          "toUserAccount": "4GTgGJn4iBxas7jbrRHUUYVzb8tn96HS6pyYQuMuxRmp",
+          "tokenAmount": 20296.304375,
+          "mint": "DRLJffxQMkPPxQVUNWC4B6UA5B5CSXMnHfuJKqAfpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "51wYCCspPTqaahf1am1LuVYKbrzhANTHMbKr46vyDQzo6wzmksz4pYDs8nP7tFHCbYNmF3hMq9itkY9Ma28FHGG5",
+    "block_slot": 392300166,
+    "block_time": 1767942963,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "FHk8ALvwXTsxDS8EQUCz7sdowygz2whDhUeB9F3gCFje",
+          "toTokenAccount": "FB69K9MhSTYMivFGyE5b55f5yHM4jRh5xTTxpp4HstoR",
+          "fromUserAccount": "Dw5d6qh9v1E8h3TSpXiLEctexmyjxhkzeSLaHHDnHpmw",
+          "toUserAccount": "FVxa6xSsViS61RfMmqifbXn8adrwquPJz4LLcDunZqfd",
+          "tokenAmount": 0.70520768,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FHk8ALvwXTsxDS8EQUCz7sdowygz2whDhUeB9F3gCFje",
+          "toTokenAccount": "7xQYoUjUJF1Kg6WVczoTAkaNhn5syQYcbvjmFrhjWpx",
+          "fromUserAccount": "Dw5d6qh9v1E8h3TSpXiLEctexmyjxhkzeSLaHHDnHpmw",
+          "toUserAccount": "FWsW1xNtWscwNmKv6wVsU1iTzRN6wmmk3MjxRP5tT7hz",
+          "tokenAmount": 0.00655712,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FHk8ALvwXTsxDS8EQUCz7sdowygz2whDhUeB9F3gCFje",
+          "toTokenAccount": "FUmckzeRa7d3kgdWmR6SNYF2G6hiKxXcdFLjB7qxJz3D",
+          "fromUserAccount": "Dw5d6qh9v1E8h3TSpXiLEctexmyjxhkzeSLaHHDnHpmw",
+          "toUserAccount": "83uUh3kFdkJMF8yT7qs6srWC5BTEZ5RniR8zkXvhBUAV",
+          "tokenAmount": 0.0021152,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FHk8ALvwXTsxDS8EQUCz7sdowygz2whDhUeB9F3gCFje",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "Dw5d6qh9v1E8h3TSpXiLEctexmyjxhkzeSLaHHDnHpmw",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.00612,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "HkJXmQ5u4guHrGK3uta46LEpJ8Bv1Jzraap1J6EXVKYa",
+          "toTokenAccount": "3giRTgX24JsdDCzzxRQkivWbC1aP6gCdo6adrNrU3cXa",
+          "fromUserAccount": "FVxa6xSsViS61RfMmqifbXn8adrwquPJz4LLcDunZqfd",
+          "toUserAccount": "Dw5d6qh9v1E8h3TSpXiLEctexmyjxhkzeSLaHHDnHpmw",
+          "tokenAmount": 3567639.374946,
+          "mint": "DtKyu1kSzDVxPEN4X44Z34Ma69qUYBq6PD3kBKukpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "3798TgoH9zhQSXk5HzwU75XK54DncG6Kqkkv9zt3RHcyxJPoCxpnn2Y2WLmrgSPX1JH6ajhmKyodskX9RC6oA8XT",
+    "block_slot": 392300165,
+    "block_time": 1767942963,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "Fmnt6VHvWWEMhaT47ZEmmytK8KNBJM5k6gcJCyEHLKLZ",
+          "toTokenAccount": "HrTf9CzXR1dRH4Sof5QrpmGWwpwAf3qZzwCsEjQpXcSq",
+          "fromUserAccount": "BZEt1Ju3P45H5VWQC8DTeWkhaTSyijHiKtLmMcw6zzbQ",
+          "toUserAccount": "R4rNJHaffSUotNmqSKNEfDcJE8A7zJUkaoM5Jkd7cYX",
+          "tokenAmount": 0.95,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "Fmnt6VHvWWEMhaT47ZEmmytK8KNBJM5k6gcJCyEHLKLZ",
+          "toTokenAccount": "7VRD4eLZVU8qGwTUjfCRTCvkMTzAiTbSZ8CzU9zWBDU6",
+          "fromUserAccount": "BZEt1Ju3P45H5VWQC8DTeWkhaTSyijHiKtLmMcw6zzbQ",
+          "toUserAccount": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "tokenAmount": 115.847276,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "8Y1MgAD5xpZDhFJzunUdoyDY7zXT8jMSfscYXoFihmh7",
+          "toTokenAccount": "3KiMB1eCMf1FTGDQktV6nj4i2jahfa9vmDCq6pf8N1xr",
+          "fromUserAccount": "2yf38DKf3j2NKkaYpokNKv7tGmX5G2gedjJvWKVLkFYx",
+          "toUserAccount": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "tokenAmount": 650261.551165,
+          "mint": "ACHEprPEhxibTS5URUtTb44NFA14wpb7vHoTu3rZpump",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "AnAxJKMRxfBz9EN3MNbE15jTxemM1BhSiDEjTp1kjoTP",
+          "toTokenAccount": "3Zm19rMmKcbKxwWbtxb3A3xjoCpwoD58za8AsEfn4eWb",
+          "fromUserAccount": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "toUserAccount": "2yf38DKf3j2NKkaYpokNKv7tGmX5G2gedjJvWKVLkFYx",
+          "tokenAmount": 0.818694481,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "AnAxJKMRxfBz9EN3MNbE15jTxemM1BhSiDEjTp1kjoTP",
+          "toTokenAccount": "X5QPJcpph4mBAJDzc4hRziFftSbcygV59kRb2Fu6Je1",
+          "fromUserAccount": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "toUserAccount": "7hTckgnGnLQR6sdH7YkqFTAA7VwTfYFaZ6EhEsU3saCX",
+          "tokenAmount": 0.000408531,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "AnAxJKMRxfBz9EN3MNbE15jTxemM1BhSiDEjTp1kjoTP",
+          "toTokenAccount": "DGGpxm8H8Bj5Dc1wZaLzPPVuiXsJTHoxvP5iR8tje1BK",
+          "fromUserAccount": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "toUserAccount": "CUdmpcWRWqE6Q3wkGeFXrQ4WyukBzhiuVeDTNV5sMknJ",
+          "tokenAmount": 0.007762074,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "C3FzbX9n1YD2dow2dCmEv5uNyyf22Gb3TLAEqGBhw5fY",
+          "toTokenAccount": "AnAxJKMRxfBz9EN3MNbE15jTxemM1BhSiDEjTp1kjoTP",
+          "fromUserAccount": "FksffEqnBRixYGR791Qw2MgdU7zNCpHVFYBL4Fa4qVuH",
+          "toUserAccount": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "tokenAmount": 0.826865086,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "7VRD4eLZVU8qGwTUjfCRTCvkMTzAiTbSZ8CzU9zWBDU6",
+          "toTokenAccount": "3RWFAQBRkNGq7CMGcTLK3kXDgFTe9jgMeFYqk8nHwcWh",
+          "fromUserAccount": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "toUserAccount": "FksffEqnBRixYGR791Qw2MgdU7zNCpHVFYBL4Fa4qVuH",
+          "tokenAmount": 115.847276,
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "3KiMB1eCMf1FTGDQktV6nj4i2jahfa9vmDCq6pf8N1xr",
+          "toTokenAccount": "5cFYBtmAgZnrjbjyHQ79f7oAz34b33Qw3Wgk4sL3kmwr",
+          "fromUserAccount": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "toUserAccount": "BZEt1Ju3P45H5VWQC8DTeWkhaTSyijHiKtLmMcw6zzbQ",
+          "tokenAmount": 650261.551165,
+          "mint": "ACHEprPEhxibTS5URUtTb44NFA14wpb7vHoTu3rZpump",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "3p6cD1vsteQAdyPHQTgRPrEM219yBYY4qQMYDzJBCmdVVWYphgqvQiPcnYysv2qVGEuwZHKJmbwSJ6pWG7hk6wP1",
+    "block_slot": 392300165,
+    "block_time": 1767942963,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "J8Ao5H9ZtDJCBz6TzxVdxJje4RLa7ygwgMbFAVp3xjoy",
+          "toTokenAccount": "CVU13UmVrKYLaXqDbXvtJU7FEmRRvgZjQC3ZWwvZBpnk",
+          "fromUserAccount": "BCC6GqE82M1b79oQNY1hrt5jTpS2cDH99YaUvVJWC5xC",
+          "toUserAccount": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+          "tokenAmount": 960695358.8052,
+          "mint": "x95HN3DWvbfCBtTjGm587z8suK3ec6cwQwgZNLbWKyp",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "2Dd7BmPRaUDmNcNbSvDxhcybTxqtSnfS28xj1GvNkUy1",
+          "toTokenAccount": "99swC1LauXPzdFPa3cJiTZAmewehpyJ1zuk1MXRKxtXj",
+          "fromUserAccount": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+          "toUserAccount": "BCC6GqE82M1b79oQNY1hrt5jTpS2cDH99YaUvVJWC5xC",
+          "tokenAmount": 0.041912429,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "99swC1LauXPzdFPa3cJiTZAmewehpyJ1zuk1MXRKxtXj",
+          "toTokenAccount": "6Wzuv7vLc6Vq8HJcHwwSCE9SKcdJiuoJmJm3EMFkWERN",
+          "fromUserAccount": "BCC6GqE82M1b79oQNY1hrt5jTpS2cDH99YaUvVJWC5xC",
+          "toUserAccount": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+          "tokenAmount": 0.000356255,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  },
+  {
+    "tx_id": "3cY46Kxm28S56Wog2RabH2DjHgvZZYPCLCwxkxkqbKxtEZemvcEDBj5jtPYqNncacaMB51yfi99EfPo7cZ6X4XJ3",
+    "block_slot": 392300164,
+    "block_time": 1767942962,
+    "event_data": {
+      "type": "inferred_swap",
+      "tokenTransfers": [
+        {
+          "fromTokenAccount": "6CFW7tJHrQeMrgybo9NRsTFy3KqfXMs2WiMChMoSxs5E",
+          "toTokenAccount": "HLuJsYqFFRWg4PmV49sbfuZpm3taMrD63mrhLtu4QSbx",
+          "fromUserAccount": "FaVY3AR8pLArbS7xQnGXmfE7roVp9fFcQQmTFvSCrmrz",
+          "toUserAccount": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "tokenAmount": 127885.744117,
+          "mint": "5y1ijwr334GE48m9KCpr2R3Cnah4b6UrnhqVf8skbonk",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FekUNQT2K2Xck82DPJH5cdHnDYPMFTriG5XEwHUsE17B",
+          "toTokenAccount": "343EELjuxwY4uG7Sxo3yMGbar7KD5xMgn9RsB1CDXeRV",
+          "fromUserAccount": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "toUserAccount": "FaVY3AR8pLArbS7xQnGXmfE7roVp9fFcQQmTFvSCrmrz",
+          "tokenAmount": 1.275052,
+          "mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FekUNQT2K2Xck82DPJH5cdHnDYPMFTriG5XEwHUsE17B",
+          "toTokenAccount": "Cyu7XFTGSHSwFtsghriq9DfGVMehrdCaepFefFKNdcKB",
+          "fromUserAccount": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "toUserAccount": "56XVRVAsgWv6ADaxzoNnbL38LMoWKM5WiSAhrAWUbd2p",
+          "tokenAmount": 0.012918,
+          "mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "FekUNQT2K2Xck82DPJH5cdHnDYPMFTriG5XEwHUsE17B",
+          "toTokenAccount": "4qBxeWvVsfwmAPpaqSQh9HkyzCFodhn5ESsmBqwzRRQe",
+          "fromUserAccount": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "toUserAccount": "9sHpTfmVpCfP2zexRNK6j38NBchMv1RWpdXPK5NEcZan",
+          "tokenAmount": 0.000645,
+          "mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "343EELjuxwY4uG7Sxo3yMGbar7KD5xMgn9RsB1CDXeRV",
+          "toTokenAccount": "BSTgtrJ7feyTpvwZVk9hbzrvxw77eUq7SkRCaCEvPfdZ",
+          "fromUserAccount": "FaVY3AR8pLArbS7xQnGXmfE7roVp9fFcQQmTFvSCrmrz",
+          "toUserAccount": "7DYHBVJNBSu3pZZkSt6Sdq3rbGuCQH2MJAuHqVY6oG2Q",
+          "tokenAmount": 1.275052,
+          "mint": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+          "tokenStandard": "Fungible"
+        },
+        {
+          "fromTokenAccount": "B2mEmSEvEJUjpmFJXmAw1zmT7iVgqUWoUDRUbKTHskiQ",
+          "toTokenAccount": "ijLDNXXAVFiuoVZfi9TvrwYkAMh3qVsG173MPcW4D6t",
+          "fromUserAccount": "7DYHBVJNBSu3pZZkSt6Sdq3rbGuCQH2MJAuHqVY6oG2Q",
+          "toUserAccount": "FaVY3AR8pLArbS7xQnGXmfE7roVp9fFcQQmTFvSCrmrz",
+          "tokenAmount": 0.009093453,
+          "mint": "So11111111111111111111111111111111111111112",
+          "tokenStandard": "Fungible"
+        }
+      ]
+    }
+  }
+]
